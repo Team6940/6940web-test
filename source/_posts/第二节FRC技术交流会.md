@@ -1,5 +1,5 @@
 ---
-title: 第二节FRC技术交流会实录
+title: 第二届FRC技术交流会实录
 date: 2021-08-08 16:54:13
 tags: 技术交流
 top: false
