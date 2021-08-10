@@ -4,6 +4,7 @@ date: 2021-08-10 19:19:09
 tags: 技术交流
 top: false
 summary: 还记得11底的FRC活动吗？让6940的队员们再现这次交流会的精彩瞬间吧！
+img: https://pic.imgdb.cn/item/611270995132923bf8b47f19.jpg
 ---
 
 <center><font size = 5>还记得11月底FRC的活动吗？</font></center>
