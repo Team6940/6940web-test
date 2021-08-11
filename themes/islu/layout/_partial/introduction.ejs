@@ -1,8 +1,8 @@
+<script src="<%- theme.jsDelivr.url %><%- url_for('/libs/introduction/introduction.js') %>"></script>
 <link rel="stylesheet" type="text/css"
       href="<%- theme.jsDelivr.url %><%- url_for('/libs/introduction/introduction.css') %>">
-<script src="<%- theme.jsDelivr.url %><%- url_for('/libs/introduction/introduction.js') %>"></script>
+
 <script type="text/javascript">
-    /*判断是否为移动端*/
     function isMobile() {
         let info = navigator.userAgent;
         let agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPod", "iPad"];
@@ -13,7 +13,7 @@
     }
 
     if (isMobile() == false) {
-        if (document.cookie.indexOf("a=islu") == -1) {
+        if (document.cookie.indexOf("a=islu") === -1) {
             /*day为多少天内打开不再进行引导*/
             var day = 1;
             var t = new Date(new Date().getTime() + 1000 * 60 * 60 * 24 * day);
@@ -24,10 +24,14 @@
 
             var enjoyhint_script_steps = [
                 {
-                    'next .brand-logo': '欢迎来到Lu\'s Blog！让我来引导你了解它。',
+                    'next #header_logo': '欢迎来到Lu\'s Blog！让我来引导你了解它。',
                     'skipButton': {className: "mySkip", text: "狠心跳过!"},
                     'nextButton': {className: "myNext", text: "好的"}
 
+                },
+                {
+                    'next .btn-ewm': "这里是博主新上线的小程序，点击扫码进行查看",
+                    'nextButton': {className: "myNext", text: "下一步"}
                 },
                 {
                     'next #sma': '点击进行模式切换',
@@ -48,5 +52,4 @@
             enjoyhint_instance.run();
         }
     }
-
 </script>

@@ -64,14 +64,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="<%= keyWords %>">
-    <meta name="description" content="<%= config.description %>">
+    <meta name="description" content="<%= description %>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title><%= pageTitle %></title>
     <link rel="icon" type="<%= iconType %>" href="<%- theme.jsDelivr.url %><%- url_for(theme.favicon) %>">
 
@@ -83,14 +83,32 @@
     <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.islu) %>">
     <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.mycss) %>">
 
-    <% if (theme.loading.enable) { %>
-        <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for('/css/loading.css') %>">
-    <% } %>
 
     <% if (theme.dark.enable) { %>
         <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for('/css/dark.css') %>">
     <% } %>
 
     <script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.jquery) %>"></script>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<!--    <link rel="stylesheet" type="text/css" href="https://unpkg.com/nprogress@0.2.0/nprogress.css">-->
+<!--    <script src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script>-->
+
+    <script>
+        $(document).pjax('a[target!=_blank][rel!=group]', '#pjax-container', {
+            fragment: '#pjax-container',
+            timeout: 10000
+        })
+        // $(document).on('pjax:send', function () {
+        //     NProgress.start();
+        // })
+        // $(document).on('pjax:complete', function () {
+            // NProgress.done();
+            // image(":not[no-image] img");
+        // })
+        // $(document).ready(function () {
+        //     $.fancybox.defaults.hash = false;
+        // });
+    </script>
 
 </head>

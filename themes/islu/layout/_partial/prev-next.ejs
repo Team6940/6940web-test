@@ -24,7 +24,11 @@ var featureImages = theme.featureImages;
                 <i class="fas fa-chevron-left"></i>&nbsp;<%= __('prev') %></div>
             <div class="card">
                 <a href="<%- url_for(page.prev.path) %>">
-                    <div class="card-image">
+                    <div class="card-image card-image-V">
+                        <div class="box-content">
+                            <h3 class="title">阅读全文</h3>
+                            <span class="post"><%= page.prev.title %></span>
+                        </div>
                         <% if (page.prev.img) { %>
                         <img src="<%- url_for(page.prev.img) %>" class="responsive-img" alt="<%= page.prev.title %>">
                         <% } else { %>
@@ -35,7 +39,7 @@ var featureImages = theme.featureImages;
                         %>
                         <img src="<%- theme.jsDelivr.url %><%- url_for(featureimg) %>" class="responsive-img" alt="<%= page.prev.title %>">
                         <% } %>
-                        <span class="card-title"><%= page.prev.title %></span>
+                        <span class="card-title title-V"><%= page.prev.title %></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -86,7 +90,11 @@ var featureImages = theme.featureImages;
             </div>
             <div class="card">
                 <a href="<%- url_for(page.path) %>">
-                    <div class="card-image">
+                    <div class="card-image card-image-V">
+                        <div class="box-content">
+                            <h3 class="title">阅读全文</h3>
+                            <span class="post"><%= page.title %></span>
+                        </div>
                         <% if (page.img) { %>
                         <img src="<%- url_for(page.img) %>" class="responsive-img" alt="<%= page.title %>">
                         <% } else { %>
@@ -95,7 +103,7 @@ var featureImages = theme.featureImages;
                         %>
                         <img src="<%- theme.jsDelivr.url %><%- url_for(featureimg) %>" class="responsive-img" alt="<%= page.title %>">
                         <% } %>
-                        <span class="card-title"><%= page.title %></span>
+                        <span class="card-title title-V"><%= page.title %></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -148,7 +156,11 @@ var featureImages = theme.featureImages;
             </div>
             <div class="card">
                 <a href="<%- url_for(page.next.path) %>">
-                    <div class="card-image">
+                    <div class="card-image card-image-V">
+                        <div class="box-content">
+                            <h3 class="title">阅读全文</h3>
+                            <span class="post"><%= page.next.title %></span>
+                        </div>
                         <% if (page.next.img) { %>
                         <img src="<%- url_for(page.next.img) %>" class="responsive-img" alt="<%= page.next.title %>">
                         <% } else { %>
@@ -157,7 +169,7 @@ var featureImages = theme.featureImages;
                         %>
                         <img src="<%- theme.jsDelivr.url %><%- url_for(featureimg) %>" class="responsive-img" alt="<%= page.next.title %>">
                         <% } %>
-                        <span class="card-title"><%= page.next.title %></span>
+                        <span class="card-title title-V"><%= page.next.title %></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -208,7 +220,11 @@ var featureImages = theme.featureImages;
             </div>
             <div class="card">
                 <a href="<%- url_for(page.path) %>">
-                    <div class="card-image">
+                    <div class="card-image card-image-V">
+                        <div class="box-content">
+                            <h3 class="title">阅读全文</h3>
+                            <span class="post"><%= page.prev.title %></span>
+                        </div>
                         <% if (page.img) { %>
                         <img src="<%- url_for(page.img) %>" class="responsive-img" alt="<%= page.title %>">
                         <% } else { %>
@@ -217,7 +233,7 @@ var featureImages = theme.featureImages;
                         %>
                         <img src="<%- theme.jsDelivr.url %><%- url_for(featureimg) %>" class="responsive-img" alt="<%= page.title %>">
                         <% } %>
-                        <span class="card-title"><%= page.title %></span>
+                        <span class="card-title title-V"><%= page.title %></span>
                     </div>
                 </a>
                 <div class="card-content article-content">

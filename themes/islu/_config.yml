@@ -1,63 +1,64 @@
 # main menu navigation url and icon
 # 配置菜单导航的名称、路径和图标icon.
 menu:
-  Index:
+  🏡 首页:
     url: /
-    icon: fas fa-home
-  About:
-    icon: fas fa-user-circle
+  #    icon: fas fa-home
+  📚 文章:
+    #    icon: fas fa-book
     children:
-      - name: 队伍简介
-        url: /about
-        icon: fas fa-user-circle
-      - name: 队员介绍
-        url: /friends
-        icon: fas fa-user-friends
-  Tags:
-    url: /tags
-    icon: fas fa-tags
-  Categories:
-    url: /categories
-    icon: fas fa-bookmark
-  Archives:
+      - name: 🔖 标签
+        url: /tags
+      #        icon: fas fa-tags
+      - name: 📦 分类
+        url: /categories
+      #        icon: fas fa-bookmark
+      - name: ✍ 摘抄
+        url: /categories/随笔/
+  #        icon: fas fa-pen
+  ⏳ 归档:
     url: /archives
-    icon: fas fa-archive
-  赞助:
-    url: /Sponsor 
-    icon: fas fas fa-ad
- # Contact:
- #   url: /contact
- #   icon: fas fa-comments
- #Friends:
- #   url: /friends
- #  icon: fas fa-address-book
-  # 二级菜单写法如下
-  #Medias:
-  #  icon: fas fa-list
-  #  children:
-  #    - name: Musics
-  #      url: /musics
-  #      icon: fas fa-music
-  #    - name: Movies
-  #      url: /movies
-  #      icon: fas fa-film
-  #    - name: Books
-  #      url: /books
-  #      icon: fas fa-book
-  #    - name: Galleries
-  #      url: /galleries
-  #      icon: fas fa-image
+  #    icon: fas fa-archive
+  📆 清单:
+    url: /time
+  #    icon: fas fa-image
+  👑 关于:
+    #    icon: fas fa-heartbeat
+    url: /about
+  📬 留言:
+    url: /contact
+    id: contact
+  #    icon: fas fa-comments
+  🚀 链接:
+    #    icon: fas fa-link
+    children:
+      - name: 🤝 友情链接
+        url: /friends
+      - name: 📑 站点日志 # 日志
+        url: /journal
+      - name: 💰 打赏明细 # 打赏
+        url: /rewardModal
+      - name: ✍ 闲谈叙事 # 写作站
+        url: https://writing.islu.cn
+      - name: 🎬 影乐观赏
+        url: /av
+      - name: 🌏 常用网站
+        url: /navigate
+      - name: 💻 友链监测
+        url: /supervise
+      - name: ⛅ 云上尊享
+        url: https://pan.islu.cn
 
 # Website start time.
 # 站点运行开始时间.
 time:
   enable: true
-  year: 2021 # 年份
-  month: 06 # 月份
-  date: 04 # 日期
-  hour: 13 # 小时
-  minute: 45 # 分钟
-  second: 25 # 秒
+  year: 2020 # 年份
+  month: 10 # 月份
+  date: 29 # 日期
+  hour: 00 # 小时
+  minute: 00 # 分钟
+  second: 00 # 秒
 
 # Index cover carousel configuration.
 # 首页封面轮播图的相关配置.
@@ -75,8 +76,14 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title:  简介
-  text: 我们是FRC Team 6940,来自上海市华东师范大学第二附属中学紫竹校区的Violet Z。
+  title: 💪 人生格言
+  text: 你所浪费的今天是昨天死去的人奢望的明天，你所厌恶的现在，是未来的你回不到的曾经！
+
+# 首页公告内容
+notice:
+  enable: true
+  text1: 因为适配的Pjax有比较多Bug，暂不上线 ~ # 近况
+  text2: 对于更新我只能说有空的话会水几篇文章，见谅 ~ # 方案
 
 # 加载动画
 loading:
@@ -84,16 +91,21 @@ loading:
   time: 500 # 强制开启loading动画的时间 1000=1s,默认为0.5s
 
 # 首页引导.
+indexIntroduction:
+  enable: true
+
+#
 instantpage:
   enable: true
 
 # 谷歌广告联盟
 guanggao:
-  enable: true
+  enable: false
 
 # 暗黑模式
 dark:
   enable: true
+  bg: false
 
 # 个人信息介绍表格
 aboutTable:
@@ -102,19 +114,22 @@ aboutTable:
 # 友链朋友圈
 ## 若设为true，记得配置/theme/source/js/moments.js文件第一行中API
 friendsCircle:
-  enable: false
+  enable: true
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
+myhk:
+  enable: false
+
 music:
   enable: true
   title: #非吸底模式有效
-    enable: true
+    enable: false
     show: 听听音乐
   autoHide: true    # hide automaticaly
-  server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
-  type: song    #require song, playlist, album, search, artist
-  id: 26680479     #require	song id / playlist id / album id / search keyword
+  server: tencent   #require	music platform: netease, tencent, kugou, xiami, baidu
+  type: playlist    #require song, playlist, album, search, artist
+  id: 7865349211     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
   autoplay: false   # 是否自动播放
   theme: '#42b983'
@@ -123,22 +138,21 @@ music:
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: true  # 列表默认折叠
-  hideLrc: true     # 隐藏歌词
+  hideLrc: false     # 隐藏歌词
 
 # Whether to display the videos.
 # 是否在首页显示视频.
 video:
-  enable: true
+  enable: false
   showTitle: true # 是否显示title
-  title: 2021 RCC Recap # title名
-  url: # https://www.bilibili.com/video/BV1264y1Q7kN?share_source=copy_web
-  iframeUrl: //player.bilibili.com/player.html?aid=546399826&bvid=BV18q4y1s7FH&cid=362532989&page=1 #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
-  pic:
+  title: Love Me # title名
+  url: https://txmov2.a.yximgs.com/upic/2021/01/14/19/BMjAyMTAxMTQxOTQxMTdfMjM0NjA4OTE4XzQyMzcxNTM3NDIzXzJfMw==_b_B40c67cef56d6e4edbf154cf44df817f7.mp4 # 必填
+  pic: https://files.islu.cn/detail/video.png
   thumbnails:
-  height: 550 # 如：400
-  autoplay: true # 是否自动播放
+  height: # 如：400
+  autoplay: false # 是否自动播放
   theme: '#42b983'
-  loop: true # 是否循环播放
+  loop: false # 是否循环播放
   preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7
 
@@ -152,31 +166,23 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: /6940.jpg
-logo: /6940.jpg
-logTest: FRC Team 6940
-# The configuration of the second button in the home banner,
-# including the display name of the button, the font awesome icon, and the hyperlink to the button.
-# 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
-indexbtn:
-  enable: true
-  name: Github
-  icon: fab fa-github-alt
-  url: https://github.com/Team6940
+favicon: https://images.islu.cn/%E9%97%B2%E8%8A%B1%E6%89%8B%E6%9C%AD.jpg
+logo: https://images.islu.cn/%E9%97%B2%E8%8A%B1%E6%89%8B%E6%9C%AD.jpg
+logTest: 闲花手札
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  enable: true
-  github:  https://github.com/Team6940
-  email: # ialoe@qq.com
+  enable: false
+  github: https://github.com/ialoe
+  email: ialoe@qq.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: # 180353980
+  qq: 180353980
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
-  rss: true # true、false
+  rss: false # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -192,12 +198,12 @@ toc:
 code:
   lang: true # 代码块是否显示名称
   copy: true # 代码块是否可复制
-  shrink: true # 代码块是否可以收缩 true可能会导致复制信息未格式化
-  break: false # 代码是否折行
+  shrink: true # 代码块是否可以收缩
+  break: true # 代码是否折行
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
-  enable: false
+  enable: true
   title: 你的赏识是我前进的动力
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
@@ -224,11 +230,11 @@ mathjax:
 # 文章信息--若要开启文章字数统计，需要安装 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
 postInfo:
   date: true # 发布日期
-  update: true # 更新日期
+  update: false # 更新日期
   wordCount: true # 文章字数统计
   totalCount: true # 站点总文章字数
   min2read: true # 文章阅读时长
-  readCount: true # 文章阅读次数
+  readCount: false # 文章阅读次数
   timeLag: true # 开启发布或更新距今时间间隔
 
 # Whether to activate the 'love' effect of clicking on the page.
@@ -239,9 +245,9 @@ clicklove:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/6940.jpg# 头像
-  career: FRC Team 6940 # 职业
-  introduction: 我们是FRC Team 6940,来自上海市华东师范大学第二附属中学紫竹校区的Violet Z。
+  avatar: https://images.islu.cn/avatar.jpg # 头像
+  career: 🎓 在校带专人 # 职业
+  introduction: 🔔 迷茫的原因往往只有一个，那就是在本该拼命去努力的年纪，想得太多，做得太少。 # 介绍
 
 
 # config my projects informations in about page.
@@ -250,17 +256,21 @@ profile:
 myProjects:
   enable: true
   data:
-    2021 RCC:
-      icon: fas fas fa-code
-
+    一号店商城Demo:
+      icon: fas fa-database
+      iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+      url: https://ialoe.gitee.io/yihaodian/
+      desc: 一号店商城首页Demo(纯HTML+CSS)
+    水果管理系统:
+      icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
       url: https://gitee.com/ialoe/fruit
       desc: 在JSP页面对数据库中水果数据实现增删改查(页面待美化...)
     hexo-theme-islu:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/blinkfox/typora-vue-theme
-        desc: 魔改Matery主题
+      icon: fas fa-file-alt
+      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+      url: https://gitee.com/ialoe/hexo-theme-islu
+      desc: 魔改Matery主题
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -319,7 +329,7 @@ valine:
   pageSize: 10
   placeholder: '留下你的足迹..' # Comment Box placeholder
   count: true
-  enableQQ: 180353980
+  enableQQ: 180353980dream
   recordIP: true
   requiredFields:
     - nick
@@ -331,7 +341,7 @@ valine:
   master:
     - 89ca9fc627d42e188b31660e338bf03f  # md5加密后的博主邮箱
     - 7021c3626ea74a66f99a96eb37940cf2  # md5加密后的博主邮箱
-  metaPlaceholder:  # 输入框的背景文字
+  metaPlaceholder: # 输入框的背景文字
     nick: 昵称/QQ号(必填)
     mail: 邮箱(必填)
     link: 网址(https://)
@@ -341,9 +351,19 @@ valine:
     - 小伙伴
     - 访客
   friends: # The MD5 String Array of friends Email to show friends Flag.[Just Only xCss Style mode]
-    - 89ca9fc627d42e188b31660e338bf03f # 闲花手札
-    - 7021c3626ea74a66f99a96eb37940cf2 # 闲花手札
+    - 2d723b084472eb5c3854616804b4851c # 云梦 ╮不浅
     - 68c4c9e1b9a3d34317dc6faefe2ea00e # 阿蓝
+    - ddf016c0f5a3318ea1fc0d20c8ac4429 # 不染轻裳
+    - 07f6f5a77acec1cf2848d45da1ace3b7 # 郭祥迎
+    - b2ccb12acd9586af59f588e6eda3168c # 果子酱
+    - d08a0457f664702197dd127bb9a17c2c # itsNekoDeng
+    - b52ddf21729e2963a42d5d526808099f # Tajang
+    - 5d15e6cd01332d9462562de7eb277133 # Mx
+    - aa1a0ae323a0ca99dfb391f9e0ca8565 # Xpand
+    - d0bcee4316f1dde104e8c2e34325b78f # Ch1e’sBlog
+    - fb2c71d6971dca64144d230b99f2a70d # SAM ‘S BOLG
+    - ac99dc93552427fae0a076d22f6a4ce9 # Huanzの小窝
+
 
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
@@ -368,7 +388,7 @@ verifyPassword:
 busuanziStatistics:
   enable: true
   totalTraffic: true # 总访问量
-  totalNumberOfvisitors: true # 总人次
+  totalNumberOfvisitors: false # 总人次
 
 # Add google analytics configuration
 # 添加 Google Analytics 配置
@@ -380,7 +400,7 @@ googleAnalytics:
 # 添加 baidu Analytics 配置
 baiduAnalytics:
   enable: false
-  id:
+  id: f1685af4772eacc3fcd03ceb5c762abe
 
 # 百度搜索资源平台提交链接
 ## 此处开启要配置config.yml中的baidu_url_submit和deploy
@@ -403,6 +423,7 @@ libs:
     dplayer: /libs/dplayer/DPlayer.min.css
     jqcloud: /libs/jqcloud/jqcloud.css
     tocbot: /libs/tocbot/tocbot.css
+    prism: /libs/prism/prism.css
   js:
     islu: /js/islu.js
     jquery: /libs/jquery/jquery.min.js
@@ -425,35 +446,36 @@ libs:
     ribbon: /libs/background/ribbon.min.js
     ribbonRefresh: /libs/background/ribbon-refresh.min.js
     ribbon_dynamic: /libs/background/ribbon-dynamic.js
+    typed: /libs/typed/typed.min.js
     instantpage: /libs/instantpage/instantpage.js
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.jpg
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
+  - /medias/featureimages/0.jpg
+  - /medias/featureimages/1.jpg
+  - /medias/featureimages/2.jpg
+  - /medias/featureimages/3.jpg
+  - /medias/featureimages/4.jpg
+  - /medias/featureimages/5.jpg
+  - /medias/featureimages/6.jpg
+  - /medias/featureimages/7.jpg
+  - /medias/featureimages/8.jpg
+  - /medias/featureimages/9.jpg
+  - /medias/featureimages/10.jpg
+  - /medias/featureimages/11.jpg
+  - /medias/featureimages/12.jpg
+  - /medias/featureimages/13.jpg
+  - /medias/featureimages/14.jpg
+  - /medias/featureimages/15.jpg
+  - /medias/featureimages/16.jpg
+  - /medias/featureimages/17.jpg
+  - /medias/featureimages/18.jpg
+  - /medias/featureimages/19.jpg
+  - /medias/featureimages/20.jpg
+  - /medias/featureimages/21.jpg
+  - /medias/featureimages/22.jpg
+  - /medias/featureimages/23.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -497,7 +519,7 @@ ribbon:
 
 # 背景动态彩带.
 ribbon_dynamic:
-  enable: false
+  enable: true
 
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
@@ -542,15 +564,15 @@ visiterMap:
 
 # ICP备案信息尾部显示
 icp:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: https://beian.miit.gov.cn # 备案链接
+  text: 豫ICP备2020025858号-2 # 备案信息
 
 # 又拍联盟图标
 youpai:
   enable: true
 
-# CDN访问加速 
+# CDN访问加速
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
 # 如果必须要使用国内的coding或者gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）
 # URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名
@@ -561,3 +583,6 @@ youpai:
 # 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx
 jsDelivr:
   url: # https://cdn.jsdelivr.net/gh/ialoe/BlogCode
+
+# PWA ICO
+#appletouchicon: /medias/ico/apple-touch-icon.jpg #你图片的路径

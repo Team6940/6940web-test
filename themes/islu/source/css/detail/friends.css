@@ -1,12 +1,17 @@
 .bg-cover {
-    background-image: url('/medias/banner/friends.jpg') !important
+    background-image: url('https://files.islu.cn/banner/friends.jpg') !important
+}
+
+.frind-ship .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .card .card-content p {
     height: 44.8px;
     line-height: 22.4px
 }
-
 
 .friends-container {
     margin-top: -100px;
@@ -198,3 +203,4 @@
 article .card {
     overflow: visible !important;
 }
+

@@ -2,7 +2,7 @@
     color: Hotpink;
 }
 .bg-cover{
-    background-image: url('/medias/banner/rewardModal.jpg') !important;
+    background-image: url('https://files.islu.cn/banner/rewardModal.jpg') !important;
 }
 @media only screen and (max-width:800px) {
     .swbk {

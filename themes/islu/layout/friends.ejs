@@ -8,7 +8,9 @@
                     <div id="moments_container"></div>
                 </div>
             </div>
-            <script src="<%- theme.jsDelivr.url %><%- url_for('/js/moments.js') %>"></script>
+            <script>
+                $.getScript('<%- theme.jsDelivr.url %><%- url_for('/js/moments.js') %>');
+            </script>
             <%}%>
             <div class="card">
                 <div class="card-content">
@@ -54,12 +56,6 @@
                     </div>
                 </div>
             <% } %>
-
-        <div class="card">
-            <% if (theme.valine && theme.valine.enable) { %>
-                <%- partial('_partial/valine') %>
-            <% } %>
-        </div>
     </div>
 </main>
 

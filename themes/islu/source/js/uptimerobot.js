@@ -13,14 +13,11 @@ var __apiKeys = [
 	'm787304725-921e494d5c381979e8a2cccd',// 南瓜奶酪
 	'm787793249-8f9b91da20ea1fe70862cf54',// 小冰博客
 	'm787793243-2ceb949329c228dbb58aed21',// izhaoo
-	'm787508543-84a39a39d11e77e336749d38',// 云梦 ╮不浅的博客
 	'm787515238-1fec3576aae102dc7b93f2cd',// Ch1e’sBlog
 	'm787515253-fee4a9cc46ff2af06e8c23a2',// SAM ‘ S BOLG
-	'm787793152-9d0bb6c07a379f708301efdc'// 不冷博客
-
+	'm787793152-9d0bb6c07a379f708301efdc',// 不冷博客
+	'm787997933-a99462130cc4ae030cd51022'//Khighness
 ];
 //https://uptimerobot.com/ 设置要监控的域名或者ip 获取到key
-
-
 // refresh interval (in seconds)
 var __refresh = 300;

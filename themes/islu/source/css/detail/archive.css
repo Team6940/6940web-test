@@ -1,4 +1,8 @@
-.about-cover{height:110vh;background-image:url('/medias/banner/archives.jpg') !important;}
+.about-cover{height:75vh;background-image:url('https://files.islu.cn/banner/archives.jpg') !important;}
+.chip{
+    font-size: 15px;
+    font-weight: 900;
+}
     /*归档页自定义样式*/
 .archive-container{
     padding: 20px;

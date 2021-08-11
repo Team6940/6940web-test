@@ -20,10 +20,8 @@
     </a>
 </div>
 <% } %>
-
-<script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.tocbot) %>"></script>
 <script>
-    $(function () {
+    load_toc = function () {
         tocbot.init({
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
@@ -94,5 +92,12 @@
             fixPostCardWidth('artDetail', 'prenext-posts');
         });
         <% } %>
-    });
+    }
+    $(document).ready(load_toc);
+    $(document).on('pjax:send',function(){
+        if ($('#toc-content').length) load_toc.destroy();
+    })
+    $(document).on('pjax:complete',function(){
+        load_toc();
+    })
 </script>

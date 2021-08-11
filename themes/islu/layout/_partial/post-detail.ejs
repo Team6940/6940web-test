@@ -79,25 +79,31 @@
                 </p>
             </div>
             <script>
-                let date1 = new Date(document.getElementById("publishDate").innerHTML);  /*文章发布日期*/
-                let date2 = new Date();    /*当前时间*/
-                let date3 = date2.getTime() - date1.getTime();  /*时间差的毫秒数*/
+                load_timeLag = function () {
+                    let date1 = new Date(document.getElementById("publishDate").innerHTML);  /*文章发布日期*/
+                    let date2 = new Date();    /*当前时间*/
+                    let date3 = date2.getTime() - date1.getTime();  /*时间差的毫秒数*/
 
-                /*计算出相差天数*/
-                let days = Math.floor(date3 / (24 * 3600 * 1000));
+                    /*计算出相差天数*/
+                    let days = Math.floor(date3 / (24 * 3600 * 1000));
 
-                let thisTime = document.getElementById("thisTime");
-                let timeLag = document.getElementById("timeLag");
-                if (days <= 7) {
-                    thisTime.classList.add("uk-alert-success");
-                    timeLag.innerText = ("该文章发布于" + days + "天前~热乎中~请放心食用~");
-                } else if (7 < days && days <= 30) {
-                    thisTime.classList.add("uk-alert-warning");
-                    timeLag.innerText = ("该文章发布于" + days + "天前~快凉了~请尽快食用~");
-                } else {
-                    thisTime.classList.add("uk-alert-danger");
-                    timeLag.innerText = ("该文章发布于" + days + "天前~已经凉了~请加热后食用~");
-                }
+                    let thisTime = document.getElementById("thisTime");
+                    let timeLag = document.getElementById("timeLag");
+                    if (days <= 7) {
+                        thisTime.classList.add("uk-alert-success");
+                        timeLag.innerText = ("该文章发布于" + days + "天前~热乎中~请放心食用~");
+                    } else if (7 < days && days <= 30) {
+                        thisTime.classList.add("uk-alert-warning");
+                        timeLag.innerText = ("该文章发布于" + days + "天前~快凉了~请尽快食用~");
+                    } else {
+                        thisTime.classList.add("uk-alert-danger");
+                        timeLag.innerText = ("该文章发布于" + days + "天前~已经凉了~请加热后食用~");
+                    }
+                };
+                $(document).ready(load_timeLag);
+                $(document).on('pjax:complete', function () {
+                    load_timeLag();
+                });
             </script>
         <% } %>
         <% if (config.prismjs && config.prismjs.enable) { %>
@@ -178,7 +184,7 @@
 
             // we need a <pre> tag workaround.
             // otherwise the text inside "pre" loses all the line breaks!
-            if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
                 newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
             }
 

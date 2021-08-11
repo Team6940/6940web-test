@@ -1,7 +1,4 @@
-.bg-cover {
-    background-image:url('/medias/banner/journal.jpg') !important;
-    height: 110vh;
-}
+
 @media screen and (min-width: 762px) and (max-width: 1200px) {
     .list:nth-last-of-type(1) {
         margin-bottom: 10%;
@@ -104,7 +101,10 @@ body.dark .miaoshus {
     padding-bottom: 6px;
 }
 
-
+.bg-cover {
+    background-image:url('https://files.islu.cn/banner/journal.jpg') !important;
+    height: 75vh;
+}
 .bg-cover .container {
     margin-top: 77px;
 }

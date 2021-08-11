@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<script src="/libs/dplayer/DPlayer.min.js"></script>
+<script src="<%- theme.jsDelivr.url %><%- url_for('/libs/dplayer/DPlayer.min.js') %>"></script>
 <script>
     $(function () {
         new DPlayer({
@@ -51,8 +51,8 @@
             <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for('/libs/aplayer/APlayer.min.css') %>">
             <script src="<%- theme.jsDelivr.url %><%- url_for('/libs/aplayer/APlayer.min.js') %>"></script>
             <!-- require MetingJS -->
-            <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-                <meting-js style="margin-top: 1.5rem;width: auto;height: auto;"
+            <script src="<%- theme.jsDelivr.url %><%- url_for('/libs/aplayer/Meting.min.js') %>"></script>
+            <meting-js style="margin-top: 1.5rem;width: auto;height: auto;"
                 server="netease"
                 type="playlist"
                 id="5259443067"
@@ -162,10 +162,3 @@
         </div>
     </div>
 </main>
-<script type="text/javascript">
-//只在桌面版网页启用特效
-var windowWidth = $(window).width();
-if (windowWidth > 768) {
-    document.write('<script type="text/javascript" src="/js/Petal.js"><\/script>');
-}
-</script>

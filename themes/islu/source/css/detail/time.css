@@ -1,5 +1,5 @@
 .bg-cover {
-    background-image: url("/medias/banner/time.jpg")!important;
+    background-image: url("https://files.islu.cn/banner/time.jpg")!important;
 }
 /*开始*/
 .task-input{width:99%;height:30px;outline:0;border:1px solid #ccc;border-radius: 6px;}

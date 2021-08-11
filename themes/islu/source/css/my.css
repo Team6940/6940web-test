@@ -1,16 +1,36 @@
 /* Here is your custom css styles. */
-/*首页箭头样式*/
- #scroll-down {
+/*footer 站长统计图片修改*/
+span#cnzz_stat_icon_1279985280 a img{
+    width: 12px;
+}
+/* 解决卜蒜子冲突 */
+#busuanzi_container_site_uv,#busuanzi_value_site_pv,#busuanzi_container_site_pv{
+    display: inline-block !important;
+}
+/*导航栏字体加粗*/
+#navContainer{
+    font-weight: bolder;
+}
+
+/*背景星圖*/
+.content,.card{
+    background-image: url("https://files.islu.cn/article/20210524222449.svg");
+}
+
+/* 首页向下开始阅读*/
+#scroll-down {
     position: absolute;
     bottom: 0;
     width: 100%;
     cursor: pointer;
 }
+
 #scroll-down .scroll-down-effects {
     position: relative;
     width: 100%;
     font-size: 30px;
 }
+
 .scroll-down-effects {
     -webkit-animation: scroll-down-effect 1.5s infinite;
     -moz-animation: scroll-down-effect 1.5s infinite;
@@ -18,6 +38,7 @@
     -ms-animation: scroll-down-effect 1.5s infinite;
     animation: scroll-down-effect 1.5s infinite;
 }
+
 .reward-main {
     -webkit-animation: donate_effcet 0.3s 0.1s ease both;
     -moz-animation: donate_effcet 0.3s 0.1s ease both;
@@ -25,6 +46,7 @@
     -ms-animation: donate_effcet 0.3s 0.1s ease both;
     animation: donate_effcet 0.3s 0.1s ease both;
 }
+
 @-moz-keyframes scroll-down-effect {
     0% {
         top: 0;
@@ -45,6 +67,7 @@
         filter: alpha(opacity=40);
     }
 }
+
 @-webkit-keyframes scroll-down-effect {
     0% {
         top: 0;
@@ -65,6 +88,7 @@
         filter: alpha(opacity=40);
     }
 }
+
 @-o-keyframes scroll-down-effect {
     0% {
         top: 0;
@@ -85,6 +109,7 @@
         filter: alpha(opacity=40);
     }
 }
+
 @keyframes scroll-down-effect {
     0% {
         top: 0;
@@ -105,6 +130,7 @@
         filter: alpha(opacity=40);
     }
 }
+
 /* 文章顶部hr 剪刀*/
 hr {
     position: relative;
@@ -135,33 +161,40 @@ hr:before {
     -ms-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 }
-hr:hover::before{
+
+hr:hover::before {
     left: 95%;
 }
+
 /* 动态背景*/
-body #bg{
+body #bg {
     position: absolute;
     overflow: hidden;
 }
-body #bg canvas{
+
+body #bg canvas {
     position: absolute;
 }
 
 /* 滚动条 */
-::-webkit-scrollbar-thumb {
-    background-color: #26a69a;
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .4) 50%, rgba(255, 255, 255, .4) 75%, transparent 75%, transparent);
-    border-radius: 3em;
-}
-
-::-webkit-scrollbar-track {
-    background-color: #ffcacaff;
-    border-radius: 3em;
-}
-
-::-webkit-scrollbar {
+*::-webkit-scrollbar{
     width: 8px;
-    height: 15px;
+    height: 8px;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #26a69a;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+    opacity: 1;
+    display: block!important;
+}
+
+*::-webkit-scrollbar-track{
+    background-color: transparent;
 }
 
 /* 背景图片 */
@@ -176,7 +209,7 @@ body #bg canvas{
 .comment-scroll {
     position: fixed;
     right: 15px;
-    bottom: 150px;
+    bottom: 200px;
     padding-top: 15px;
     margin-bottom: 0;
     z-index: 998;
@@ -194,17 +227,23 @@ body #bg canvas{
 }
 
 /* 添加背景像素纹*/
-.bg-cover::before {
-    background-image: url('/medias/detail/grid.png');
-}
+/*.bg-cover::before {*/
+/*    background-image: url(https://files.islu.cn/detail/dot.gif);*/
+/*}*/
+
+/* background-image: url(https://files.islu.cn/detail/grid.png); */
 
 /* 添加字体*/
 body {
-    background-image: url('/medias/detail/background.png');
-    font-family: 'Architects Daughter', cursive !important;
-    font-weight: 900;
+    font-family: myFont, cursive;
 }
-
+@font-face{
+    font-family: 'myFont';
+    src: local(Architects Daughter);
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+}
 /*@font-face {*/
 /*    font-family: 'myfont';*/
 /*    src:url('../font/islu.ttf')*/
@@ -221,6 +260,37 @@ body {
     line-height: 38px;
 }
 
+/* 小程序按钮样式 */
+.btn-ewm {
+    position: fixed;
+    right: 15px;
+    bottom: 150px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+#btn_ewm {
+    background: linear-gradient(to right bottom, rgb(255, 94, 58) 0px, rgb(156, 229, 37) 100%) !important;
+    box-shadow: rgb(170, 170, 170) 2px 5px 10px !important;
+}
+
+.div_ewm {
+    position: absolute;
+    display: none;
+    z-index: 10;
+    top: 0px;
+    right: 40px;
+    padding: 15px;
+    border: 1px solid saddlebrown;
+    background-color: aliceblue;
+}
+
+.div_ewm img {
+    width: 150px;
+    height: 150px;
+
+}
 
 /*.ewm{*/
 /*    position: absolute;*/
@@ -228,9 +298,10 @@ body {
 /*    height: 200px;*/
 /*    background-color: red;*/
 /*}*/
+
 /* 目录按钮样式修改 */
 #floating-toc-btn {
-    bottom: 200px !important;
+    bottom: 250px !important;
 }
 
 /* 返回顶部按钮样式 */
@@ -271,8 +342,4 @@ body {
     border-left: 6px solid #eb360d;
     font-weight: 600;
     padding-left: 10px;
-}
-/*解决不蒜子冲突*/
-#busuanzi_container_site_uv,#busuanzi_container_site_pv,#busuanzi_value_site_pv{
-    display: inline-block !important;
 }
