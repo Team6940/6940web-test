@@ -11,8 +11,10 @@ date: 2022-11-21 15:46:57
 
 coding[https://lijiaan.coding.net/public/hexoblog/6940web-test/git/files]
 
-请不要频繁点击同步到git，一个月使用有一定限额。
-
 当前流程
 
 服务器editor -> coding -> github action -> github pages
+
+请不要频繁点击同步到git，一个月使用有一定限额。
+
+账号密码询问张家铭。
