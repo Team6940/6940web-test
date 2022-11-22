@@ -142,7 +142,7 @@ footer:
     color: "#ffc0cb"
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
   count: false
-  powered: true
+  powered: false
 
 post:
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
@@ -151,7 +151,7 @@ post:
 # Reward (Donate)
 reward:
   # If true, reward will be displayed in every article by default.
-  enable: true
+  enable: false
   account:
     wechatpay: /wechatpay.png
     alipay: /alipay.png
@@ -177,7 +177,7 @@ tagcloud:
 # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
-  license: by-nc-sa
+  license: by
   language: deed.zh
 
 # Comments
