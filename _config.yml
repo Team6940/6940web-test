@@ -5,20 +5,18 @@
 # Site
 title: Violet Z -Team6940
 subtitle: 'FRC Team6940'
-description: 'A high-school robotics team from No.2 High School Of East China Normal University Zizhu Campus.'
-keywords: FRC Robot Team6940
-author: 
+description: '这是华东师范大学紫竹校区第二中学的一支高中机器人团队！'
+keywords: FRC,Robot,Team6940
+author: Team6940
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://team6940.tech/
-permalink: :year/:month/:day/:title/
+root: /
+permalink: :title/ # edit for Theme.shoka
 permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -44,35 +42,18 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: time # edit for Theme.shoka
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
-  wrap: true
-  hljs: false
 prismjs:
-  enable: true
-  preprocess: true
-  line_number: true
-  tab_replace: ''
+  enable: false # edit for Theme.shoka
 
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
 
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
-
-# Metadata elements
-## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -80,33 +61,16 @@ meta_generator: true
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
 per_page: 10
 pagination_dir: page
 
-# Include / Exclude file(s)
-## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
-
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: shoka
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
-  order_by: -date
 
 search:
   path: search.xml
@@ -129,3 +93,82 @@ deploy:
   type: git
   repository: git@github.com:Team6940/6940web-test.git
   branch: pages_branch
+
+autoprefixer:
+  exclude:
+    - '*.min.css'
+
+markdown:
+  render: # 渲染器设置
+    html: false # 过滤 HTML 标签
+    xhtmlOut: true # 使用 '/' 来闭合单标签 （比如 <br />）。
+    breaks: true # 转换段落里的 '\n' 到 <br>。
+    linkify: true # 将类似 URL 的文本自动转换为链接。
+    typographer:
+    quotes: '“”‘’'
+  plugins: # markdown-it插件设置
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true
+        options: # 文章目录以及锚点应用的class名称，shoka主题必须设置成这样
+          tocClassName: 'toc'
+          anchorClassName: 'anchor'
+    - plugin:
+        name: markdown-it-multimd-table
+        enable: true
+        options:
+          multiline: true
+          rowspan: true
+          headerless: true
+    - plugin:
+        name: ./markdown-it-furigana
+        enable: true
+        options:
+          fallbackParens: "()"
+    - plugin:
+        name: ./markdown-it-spoiler
+        enable: true
+        options:
+          title: "你知道得太多了"
+
+minify:
+  html:
+    enable: true
+    stamp: false
+    exclude:
+      - '**/json.ejs'
+      - '**/atom.ejs'
+      - '**/rss.ejs'
+  css:
+    enable: true
+    stamp: false
+    exclude:
+      - '**/*.min.css'
+  js:
+    enable: true
+    stamp: false
+    mangle:
+      toplevel: true
+    output:
+    compress:
+    exclude:
+      - '**/*.min.js'
+
+feed:
+    limit: 20
+    order_by: "-date"
+    tag_dir: false
+    category_dir: false
+    rss:
+        enable: true
+        template: "themes/shoka/layout/_alternate/rss.ejs"
+        output: "rss.xml"
+    atom:
+        enable: true
+        template: "themes/shoka/layout/_alternate/atom.ejs"
+        output: "atom.xml"
+    jsonFeed:
+        enable: true
+        template: "themes/shoka/layout/_alternate/json.ejs"
+        output: "feed.json"
+

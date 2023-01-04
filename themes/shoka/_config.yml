@@ -1,5 +1,5 @@
 # Alternate site name
-alternate: Yume Shoka
+alternate: FRC Team6940
 
 open_graph:
   #twitter_id:
@@ -105,14 +105,14 @@ menu:
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  #github: https://github.com/yourname || github || "#191717"
+  github: https://github.com/Team6940 || github || "#191717"
   #google: https://plus.google.com/yourname || google
   #twitter: https://twitter.com/yourname || twitter || "#00aff0"
   #zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
-  #music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
+  music: https://music.163.com/#/user/home?id=1570718951 || cloud-music || "#e60026"
   #weibo: https://weibo.com/yourname || weibo || "#ea716e"
   #about: https://about.me/yourname || address-card || "#3b5998"
-  #email: mailto:yourname@mail.com || envelope || "#55acd5"
+  email: mailto:onelittlechild@onelittlechild.icu || envelope || "#55acd5"
   #facebook: https://www.facebook.com/yourname || facebook
   #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
   #youtube: https://youtube.com/yourname || youtube
@@ -142,7 +142,7 @@ footer:
     color: "#ffc0cb"
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
   count: false
-  powered: true
+  powered: false
 
 post:
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
@@ -151,7 +151,7 @@ post:
 # Reward (Donate)
 reward:
   # If true, reward will be displayed in every article by default.
-  enable: true
+  enable: false
   account:
     wechatpay: /wechatpay.png
     alipay: /alipay.png
@@ -177,35 +177,35 @@ tagcloud:
 # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
-  license: by-nc-sa
+  license: by
   language: deed.zh
 
 # Comments
 # Valine
 # For more information: https://github.com/amehime/MiniValine
 valine:
-  appId: y3DG2MjJscqqfhOqMlisiYbs-gzGzoHsz
-  appKey: qlWKAREfV25xJJC7deegdu3H
+  appId: 0Zdu358xP2dQ6FpnIDCrLlWu-gzGzoHsz
+  appKey: GSq4c6ySYFbwzXtyGQK0AGak
   placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
-  avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
+  avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro 
   pageSize: 10 # Pagination size
   lang: zh-CN
   visitor: true # Article reading statistic
   NoRecordIP: false # Whether to record the commenter IP
-  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  serverURLs: https://comment.lijiaan.top/ # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   powerMode: true
   tagMeta:
     visitor: 新朋友
     master: 主人
     friend: 小伙伴
-    investor: 金主粑粑
+    investor: 大爹
   tagColor:
     master: "var(--color-orange)"
     friend: "var(--color-aqua)"
     investor: "var(--color-pink)"
   tagMember:
     master:
-      # - hash of master@email.com
+      - hash of johnvp@163.com
       # - hash of master2@email.com
     friend:
       # - hash of friend@email.com
