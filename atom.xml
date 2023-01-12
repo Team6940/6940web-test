@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Violet Z -Team6940</title>
+  
+  <subtitle>FRC Team6940</subtitle>
+  <link href="https://team6940.tech/atom.xml" rel="self"/>
+  
+  <link href="https://team6940.tech/"/>
+  <updated>2023-01-12T07:30:30.343Z</updated>
+  <id>https://team6940.tech/</id>
+  
+  <author>
+    <name>Team6940</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>6940-2022RapidReact机器模型公开</title>
+    <link href="https://team6940.tech/9dyeezms616egqoj/"/>
+    <id>https://team6940.tech/9dyeezms616egqoj/</id>
+    <published>2023-01-11T12:24:06.000Z</published>
+    <updated>2023-01-12T07:30:30.343Z</updated>
+    
+    <content type="html"><![CDATA[<p>随着新赛题的公布，我们也正式投入了新赛季的设计与讨论，值此新旧交替之季，我们也把我们去年的机械结构模型与代码公开，以供各位队伍借鉴于学习。</p><p>教学手册：<br><span class="exturl" data-url="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xT2R2a1BGS0pUME5LWDdzVjM0eEZnTk1jWUZYNFVGaUsvdmlldz91c3A9c2hhcmVfbGluaw==">https://drive.google.com/file/d/1OdvkPFKJT0NKX7sV34xFgNMcYFX4UFiK/view?usp=share_link</span></p><p>整车模型：<br><span class="exturl" data-url="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xNHIxNHB2cjY5TUtjOThOajBjeTdUaUwwbnY5OFNLTDkvdmlldz91c3A9c2hhcmVfbGluaw==">https://drive.google.com/file/d/14r14pvr69MKc98Nj0cy7TiL0nv98SKL9/view?usp=share_link</span></p><p>shooter：<br><span class="exturl" data-url="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xOEFKNFppRnhPRkE4MzA2LTVuTXRQN2hhalBIc0ZULWUvdmlldz91c3A9c2hhcmVfbGluaw==">https://drive.google.com/file/d/18AJ4ZiFxOFA8306-5nMtP7hajPHsFT-e/view?usp=share_link</span></p><p>hood：<br><span class="exturl" data-url="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xc2VDeTZYekdCc1lGQWstQVBpdVNSaG9oRTNNWDFHQS0vdmlldz91c3A9c2hhcmVfbGluaw==">https://drive.google.com/file/d/1seCy6XzGBsYFAk-APiuSRhohE3MX1GA-/view?usp=share_link</span></p><p>同时 6940 去年的代码也在已经 github 上公开:<br><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1RlYW02OTQwLzIwMjJSYXBpZFJlYWN0">https://github.com/Team6940/2022RapidReact</span></p><p>在此也预祝各位队伍取得优秀的成绩。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;随着新赛题的公布，我们也正式投入了新赛季的设计与讨论，值此新旧交替之季，我们也把我们去年的机械结构模型与代码公开，以供各位队伍借鉴于学习。&lt;/p&gt;
+&lt;p&gt;教学手册：&lt;br&gt;
+&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9kcml2ZS5</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>6940·11月精彩活动|社团巡礼</title>
+    <link href="https://team6940.tech/dpxd436ydcxii8wd/"/>
+    <id>https://team6940.tech/dpxd436ydcxii8wd/</id>
+    <published>2023-01-11T08:25:33.000Z</published>
+    <updated>2023-01-12T07:30:30.343Z</updated>
+    
+    <content type="html"><![CDATA[<p>这周五，华二紫竹举办了社团节活动，这其中当然少不了 6940 的身影。顺利举办的活动，背后是各个队员们的辛苦付出，就让我们一起来看一看社团巡礼的台前幕后吧</p><h1 id="活动准备"><a class="anchor" href="#活动准备">#</a> 活动准备</h1><p>10 月 23 号，传来了要举办社团巡礼的消息，因比赛取消而悠哉下来的队伍又渐渐忙碌起来。</p><h1 id="激光切割周边"><a class="anchor" href="#激光切割周边">#</a> 激光切割周边</h1><p>本次我们在社团节上贩卖的周边是校队队徽的变体，用激光切割制作。在社团节举办的消息一传下来。负责激光设计的杨弈翔同学便展开了紧锣密鼓的准备。在周三的社团课上，杨弈翔同学为学弟学妹们展示并教授了激光切割的实用知识，让大家受益匪浅。本次的队徽是使用 Autodeck CAD 进行设计的，对校队原有队徽的周围的三角形进行了转换，让周边看起来更加地<em>炫酷</em><s>（有一种工业设计的美）</s><br><img data-src="https://s1.ax1x.com/2022/11/26/zNaikV.md.jpg" alt="zNaikV.md.jpg"></p><p>设计好周边，杨同学便开始在在实验室进行加工。本次周边一共加工了 120 个，还同时制作了数十个二附中的校徽。</p><h1 id="海报设计"><a class="anchor" href="#海报设计">#</a> 海报设计</h1><p>本次活动的海报由几位高一的同学参与设计，在这个过程中，各位高一的同学们积极参与，学会了如何使用图片编辑软件，最终设计成品如下：<br>&lt;海报图片&gt;</p><h1 id="牌匾设计"><a class="anchor" href="#牌匾设计">#</a> 牌匾（？设计</h1><p>基于环保的队伍运作理念（？），我们把去年搭建的机器拆下来的材料进行了二次加工，组合成 “FRC” 三个字母。在这个过程中，同学们积极寻找材料，从各种破铜烂铁中找到了有用的部分，再用铆钉组合起来，充分体现了同学们的创新性思维。</p><h1 id="活动进行时"><a class="anchor" href="#活动进行时">#</a> 活动进行时</h1><p>下午一点半左右，同学们先带着 hub, 机器，FRC 的 “牌匾”，以及所需的工具来到了篮球场。高一高二的同学齐心协力，将 hub 零件组装起来，并将队旗挂上，迅速吸引来了同学们的目光。张家铭同学拿出电脑，连上遥控器和车，打开 Driverstation，眼花缭乱地操作下体现了 6940 编程组高超的技术水平。driver 张羿星同学操作手柄，车子应声而动，第一次向大家展示了我们的 swerve 底盘。队员们分工合作，其余人来到操场上开始布置摊子，两位高一的同学帮忙挂起了先前制作好的 FRC 字母。<br>活动正式开始，同学们鱼贯而入，操场上迅速充斥着叫卖声、讨价声，</p><p>活动过程进入尾声，施校长莅临 FRC 社团摊位，亲切问候，并与成员们合影，给我们留下了难忘的回忆。<br>&lt;照片&gt;</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这周五，华二紫竹举办了社团节活动，这其中当然少不了 6940 的身影。顺利举办的活动，背后是各个队员们的辛苦付出，就让我们一起来看一看社团巡礼的台前幕后吧&lt;/p&gt;
+&lt;h1 id=&quot;活动准备&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#活动准备&quot;&gt;#&lt;/a&gt; 活动准备</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>日常。——by 小小小朋友</title>
+    <link href="https://team6940.tech/qyekoyvelqg4slm1/"/>
+    <id>https://team6940.tech/qyekoyvelqg4slm1/</id>
+    <published>2022-11-21T15:06:30.000Z</published>
+    <updated>2023-01-12T07:30:30.343Z</updated>
+    
+    <content type="html"><![CDATA[<p>frc 比赛取消啦！</p><p>诸位再接再厉。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;frc 比赛取消啦！&lt;/p&gt;
+&lt;p&gt;诸位再接再厉。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一届FRC技术交流会</title>
+    <link href="https://team6940.tech/di-yi-jie-frc-ji-zhu-jiao-liu-hui/"/>
+    <id>https://team6940.tech/di-yi-jie-frc-ji-zhu-jiao-liu-hui/</id>
+    <published>2021-08-10T11:19:09.000Z</published>
+    <updated>2023-01-12T07:30:30.343Z</updated>
+    
+    <content type="html"><![CDATA[<p>&lt;center&gt;&lt;font size = 5 &gt; 还记得 11 月底 FRC 的活动吗？&lt;/font&gt;&lt;/center&gt;</p><p>&lt;div align="center"&gt;<br>&lt;img src="<span class="exturl" data-url="aHR0cHM6Ly9waWMuaW1nZGIuY24vaXRlbS82MTEyNjhjYjUxMzI5MjNiZjhhNTdiNWYuanBn">https://pic.imgdb.cn/item/611268cb5132923bf8a57b5f.jpg</span>" width="80" height="80"&gt;<br>&lt;/div&gt;</p><p><img data-src="https://pic.imgdb.cn/item/61126a375132923bf8a8255d.jpg" alt="不全的华二全家福"><br> &lt;center&gt; 不全的华二全家福 &lt;/center&gt;</p><hr><p>&lt;center&gt; 参加活动的同学们回到学校后，进行了分享交流，&lt;/center&gt;<br>&lt;center&gt; 让没能参加的队员们也能有所收获。&lt;/center&gt;</p><p><img data-src="https://pic.imgdb.cn/item/61126ab85132923bf8a91416.jpg" alt=""></p><p>&lt;center&gt; 那接下来让 6940 的队员们再现这次交流会的精彩瞬间吧！&lt;/center&gt;</p><p>&lt;font&gt;&lt;center&gt;<strong>ps：由 6940 的王智烨同学讲解的 “3D 打印之于 frc” 在第二篇推文中有详细介绍哦！</strong>&lt;/center&gt;&lt;/font&gt;</p><h2 id="校长致辞"><a class="anchor" href="#校长致辞">#</a> 校长致辞</h2><p><img data-src="https://pic.imgdb.cn/item/61126b3f5132923bf8aa0ec6.jpg" alt=""></p><p>&lt;center&gt; 民办平和学校的副校长奚校长在活动开始时致辞，&lt;/center&gt;</p><p>&lt;center&gt; 预祝活动取得圆满成功。&lt;/center&gt;</p><hr><h2 id="part-1-机器人干冰"><a class="anchor" href="#part-1-机器人干冰">#</a> part 1 机器人 “干冰”</h2><p>&lt;center&gt; 第一宣讲是由 6941（民办平和学校）的队长奚宇涵带来的机器人 “干冰” 介绍 &lt;/center&gt;</p><p><img data-src="https://pic.imgdb.cn/item/61126ba15132923bf8aac570.jpg" alt=""></p><p>&lt;center&gt;<br> 在进行备赛之前，首先确定总体设计目标</p><p>你想要让自己的机器人做到哪些？</p><p>是作为得分手</p><p>还是把重点放在防守上</p><p>在明确目标之后思考想要设计的结构</p><p>intaker 如何设计，电梯如何设计</p><p>一个装置完成多个任务真的会把工作量降低嘛？</p><p>答案是：不一定</p><p>应该是各个装置完成相应目标则更为简单 &lt;/center&gt;</p><p><img data-src="https://pic.imgdb.cn/item/61126bea5132923bf8ab548d.jpg" alt=""></p><p><strong>Q: 车子一定要快嘛？</strong></p><p>A:<br> 好处：推力大，上坡不会卡<br>坏处：不是很稳定，对 driver 有难度，难以控制<br>怎么解决：底盘使用多减速箱，达到多减速比，在运行和防守推人的时候进行换挡，使用多模式</p><p><strong>Q: 机械臂如何保护？</strong></p><p>A: 伸出的机械臂一般受不到保护，intaker 是车子的灵魂，为了保证机械臂不会被撞断，一般在材料上会使用刚性材料，保证坚固，同时在结构上做到以柔克刚（收到撞击后机械臂上抬）以吸收冲击力，并在侧面增加挡板，增强保护性</p><p><strong>Q: 如何提高 intaker 的容错率？</strong></p><p>A: 在结构细节上下功夫，转轮抓球自动导向正中，方便出球。抓盘结构伸缩装置增加活动关节，实现多角度放盘子。这样能大幅度增加 intaker 的容错率</p><hr><h2 id="part-2-队伍运营"><a class="anchor" href="#part-2-队伍运营">#</a> part 2 队伍运营</h2><p>&lt;center&gt; 第二个宣讲是由 6907 带来的 FRC 的团队运营 &lt;/center&gt;</p><p><img data-src="https://pic.imgdb.cn/item/61126c505132923bf8ac1090.jpg" alt=""></p><p>&lt;font&gt;&lt;center&gt;<br> 团队运营是由 <strong>宣传，赞助，传承，外交</strong> 四部分构成的</p><p><strong>如何才能做好宣传？</strong></p><p>你需要设计好丰富的周边</p><p>制作好吸引人的视频</p><p>推送优秀的公众号</p><p><strong>如何才能做好赞助？</strong></p><p>从 FRC 的备赛来讲，钱一直是一个很严重的问题</p><p>所以去向公司拉赞助就显得尤为重要</p><p>你需要找到自己的特点</p><p>强调 FRC 能带来的好处</p><p>FRC 正在国内快速发展中，全景广大</p><p>更能为公司带来潜在的人才资源</p><p><strong>如何才能做好传承？</strong></p><p>FRC 是个口口相传的比赛</p><p>老队员核心队员带新队员参赛</p><p>每周的 1 节或者 2 节社团课，去学习机械结构</p><p>去了解新事物，去充实社团课的内容</p><p>每届都会有老队员离开，也都会有新队员加入队伍</p><p>队伍精神要一直传承下去</p><p><strong>如何才能做好外交？</strong></p><p>为了更好的去宣传 FRC 文化队伍可以通过线下演讲、组织聚会、技术交流会，来发展新 FRC 队伍，让更多的学校或组织了解并加入 FRC，让 FRC 在国内得到更好的发展。&lt;/center&gt;&lt;/font&gt;</p><h2 id="part-3-frc生存指南"><a class="anchor" href="#part-3-frc生存指南">#</a> part 3 frc 生存指南</h2><p>&lt;center&gt; 第三个分享交流由武书昆老师主讲。&lt;/center&gt;</p><p><img data-src="https://pic.imgdb.cn/item/61126cfb5132923bf8ad571d.jpg" alt=""></p><p>&lt;center&gt; 目前中国 FRC 环境的现状不容乐观，200 多支注册的队伍中艰难存活下来的只有三分之一...</p><p><strong>如何才能在这样的环境中生存下来？</strong></p><p><strong>造出有竞争力的机器人</strong>，得到奖项，给到支持的家长老师<br>校方你们的优异成绩</p><p>这样，才能生存</p><p>可是怎么造出有竞争力的机器人？</p><p>没有一个中国 FRC 队伍敢说自己是强队</p><p>我们相比美国老队来讲，都还太年轻，不够成熟</p><p>所以，我们必须要站在巨人的肩膀上</p><p>** 去学习，去借鉴，** 去实现自己的目标！</p><p><strong>如何去学习，去借鉴？</strong></p><p><strong>去外网学习，向大佬的结构进行参考</strong></p><p>从 Ri3days，EVERYbot，MCC 去学习去参考最实用的车子的结构，从全球最大工程师平台 www.grabcd.com 去寻找思路，从 chief deiphi 论坛中去找到你想要的任何东西</p><p>自我运营好队伍也很关键</p><p>不能因为核心队员走了，整个队伍就散了</p><p>要学会<strong>队伍传承</strong></p><p>每年都有新鲜血液进来</p><p>也总会一个个离开我们</p><p><strong>铁打的盘营，流水的兵</strong></p><p>队伍的精神要一届届的传承下去！</p><p>武老师在讲到 invent the rest 的时候，提到了 6940 在 2019 年 RCC 的例子，并且邀请了 6940 的郭威老师上台分享。&lt;/center&gt;</p><p><img data-src="https://pic.imgdb.cn/item/61126dbe5132923bf8aecea8.jpg" alt=""></p><p>&lt;center&gt; 郭威老师为大家讲述了备赛的时候的点点滴滴。</p><p>6940 在 19 赛季的堪萨斯赛区的机器人的表现并不理想，于是在季后赛选择了重新设计一台车，在参考了 118 的 Ri3D，并结合了队伍的实际情况后，6940 设计了一辆把重点放在 cargo 上的车，即使这辆车并不能做抬升与爬升，却也在 RCC 中取得了队史上的最好成绩：以第七联盟队长的身份进入了淘汰赛。</p><p>这也极好的证明了有些时候最简单的结构往往能得到最好的结果。最后郭威老师在台上也表达了对于 6940 的未来的期待，希望 6940 能再创辉煌。</p><p>加油，少年们，流年笑掷，未来可期！</p><p>&lt;/center&gt;</p><h2 id="part-4-交密院宣讲"><a class="anchor" href="#part-4-交密院宣讲">#</a> part 4 交密院宣讲</h2><p>&lt;center&gt; 本次活动中最令人惊喜的就是交大密西根学院的招生宣讲了，而且招生专业与工程高度吻合。交密作为本次交流会的支持单位之一，为我们介绍了他们学院的特色以及与工程生的各种福利制度。听完了他们的介绍，我们了解了工程中创新的重要性以及交密对这方面的大力支持，这也从侧面为我们展现了工程学科不可估量的未来！&lt;/center&gt;</p><p><img data-src="https://pic.imgdb.cn/item/61126e235132923bf8af9075.jpg" alt=""></p><h2 id="part-5-无人驾驶项目介绍"><a class="anchor" href="#part-5-无人驾驶项目介绍">#</a> part 5 无人驾驶项目介绍</h2><p>&lt;center&gt; 张振林先生介绍了无人驾驶项目的推进。他着重强调了 “功能明确化” 和 “项目步骤分解”，通过观看现阶段无人驾驶车辆的视频，以及其工作原理。&lt;/center&gt;</p><p><img data-src="https://pic.imgdb.cn/item/61126e4b5132923bf8afdff7.jpg" alt=""></p><p>&lt;center&gt; 一个项目有两个要素:</p><p>一系列任务，一定限制条件</p><p>而项目管理有三个要素:</p><p>时间，成本，质量</p><p>做一个项目，</p><p>就是在有限的时间和成本内追求最高的质量</p><p>&lt;/center&gt;</p><h2 id="part-6-程序设计"><a class="anchor" href="#part-6-程序设计">#</a> part 6 程序设计</h2><p>&lt;center&gt; 平和 6941 的介绍了 FRC 程序核心，机器人控制需要几个子系统，子系统下面又是一个个命令。关于自动化，他提出升降机最好不需要操作员控制高度，而是按一个键直接到达预设高度，吸盘的抬升也是提前设定好，这样能提高对于操作手的友好程度，也更加方便。&lt;/center&gt;</p><p><img data-src="https://pic.imgdb.cn/item/61126ea15132923bf8b08aee.jpg" alt=""></p><h2 id="part-7-快速制造"><a class="anchor" href="#part-7-快速制造">#</a> part 7 快速制造</h2><p><img data-src="https://pic.imgdb.cn/item/61126ebc5132923bf8b0c1ef.jpg" alt=""></p><p>&lt;center&gt; 交通大学附属中学（5515）的同学介绍了快速制造。快速制造是一种让我们在很短的时间内建造出一台有竞争力，完善的机器的技术。5515 的同学们通过 148 的实例向我们展示了快速制造的优点。随后，他又详尽地介绍了如何进行快速建造，并指出 CAD 绘图与机器人设计的重要性。&lt;/center&gt;</p><h2 id="part-8-cnc加工铣床介绍"><a class="anchor" href="#part-8-cnc加工铣床介绍">#</a> part 8 CNC 加工铣床介绍</h2><p>&lt;center&gt; 来自华师大二附中的同学向我们介绍了他们暑假里刚刚购进的 CNC 加工铣床。这是一个全自动化、数字化的精准的电脑控制的加工机器。</p><p>他们用视频向我们展示了 CNC 加工铣床的使用方法，并分析了其优点，以及使用时需注意的事项，同时推荐队伍们都购进这样的机器，以及能大大降低成本的其他不同功能的四台机床。&lt;/center&gt;</p><p>&lt;font&gt;&lt;center&gt;<strong> 主办学校:</strong></p><p>上海市民办平和学校</p><p>华东师范大学第二附属中学</p><p>复旦大学附属中学</p><p>华东师范大学第二附属中学紫竹校区</p><p>上海交通大学附属中学</p><p><strong>参会学校：</strong></p><p>苏州外国语学校</p><p>上海市建平中学</p><p>世界联合书院</p><p>浙江省杭州第二中学</p><p>上海七宝德怀特高级中学</p><p>上海世界外国语中学</p><p>上海美国学校浦西校区</p><p>星河湾双语学校</p><p>上海市实验学校</p><p>上海美国学校浦东校区</p><p>苏州市第三中学</p><p><strong>支持单位：</strong></p><p>FRC 上海组委会</p><p>上海交通大学密西根学院</p><p>西交利物浦大学科学技术与创造力研究中心</p><p>上汽大通汽车有限公司 MAXUS 机器人俱乐部</p><p>上海市工业设计协会 3D 打印专业委员会</p><p>郑州市青少年机器人科普协会 &lt;/center&gt;&lt;/font&gt;</p><p>文案：王嘉林、王驭旻</p><p>排版：顾思忆</p><p>markdown 编辑：mendax1234</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;lt;center&amp;gt;&amp;lt;font size = 5 &amp;gt; 还记得 11 月底 FRC 的活动吗？&amp;lt;/font&amp;gt;&amp;lt;/center&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;div align=&quot;center&quot;&amp;gt;&lt;br&gt;
+&amp;lt;img src=&quot;&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="技术交流" scheme="https://team6940.tech/tags/%E6%8A%80%E6%9C%AF%E4%BA%A4%E6%B5%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二届FRC技术交流会实录</title>
+    <link href="https://team6940.tech/di-er-jie-frc-ji-zhu-jiao-liu-hui/"/>
+    <id>https://team6940.tech/di-er-jie-frc-ji-zhu-jiao-liu-hui/</id>
+    <published>2021-08-08T08:54:13.000Z</published>
+    <updated>2023-01-12T07:30:30.343Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>2021.7.29  <code>第二届FRC机器人技术交流分享会</code> 在华东师范大学第二附属中学如期而至。华东地区各支在 FRC 领域内颇有建树或是有兴趣的机器人队伍以及专注于 STEM 教育的单位迎来了第二次激动人心的技术会晤。</p></li><li><p>在本届技术交流会中，大家在技术心得以及队伍未来规划中 <code>开拓更新、更广的思路与视野</code> ，与高校招生官以及企业创始人面对面交流与互动，再次创造了一次华东地区 FRC 以及机器人社交圈融合的好机会，和来自十几所学校以及机构的导师、同学、校友一起，共同感受 <code>FIRST精神的情怀与魅力</code> 。</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/610f9d815132923bf85be1ce.jpg" alt=""><br><strong>/ 地点：华东师范大学第二附属中学 /</strong></p><h2 id="教务处副主任发言"><a class="anchor" href="#教务处副主任发言">#</a> 教务处副主任发言</h2><ul><li>华东师范大学第二附属中学教务处副主任唐晓鹏老师发言，提出 FRC 社团的三个关键词是热情、团队以及成长，分别代表了对 FRC 赛事真正的喜欢、分工合作的团队精神以及技术、心智、指导老师、专业团队的成长，希望鼓励支持学校的社团活动，也希望更多的年轻同学加入到 FRC 大家庭中。</li></ul><p><img data-src="https://pic.imgdb.cn/item/610f9e075132923bf85d8c0b.jpg" alt=""><br><strong>/ 唐晓鹏老师致辞中 /</strong></p><hr><h2 id="武书昆老师发言"><a class="anchor" href="#武书昆老师发言">#</a> 武书昆老师发言</h2><ul><li>武书昆老师长期从事于学生科教工作，非常关注 FRC 比赛的发展。 武书昆老师还解释了 FRC 技术交流会的初衷，希望能让更多的学校和同学接触到这个比赛，并且能让他们少走点不必要的弯路。</li></ul><p><img data-src="https://pic.imgdb.cn/item/610f9e465132923bf85e547c.jpg" alt=""><br><strong>/ 武书昆老师致辞中 /</strong></p><hr><h2 id="论如何入坑frc"><a class="anchor" href="#论如何入坑frc">#</a> 论如何入坑 FRC</h2><ul><li><p>作为其中最年轻的一支队伍，上海中学国际部的同学以萌新视角开始了开场演讲。他们的队长黄大卫介绍了三点他们的心得体会。首先，FRC 除了需要自费的训练场地、材料开销，还会占用同学们更多的课余时间。但我们都会共同克服困难，希望在 FRC 这个平台上完成一次自我实践。</p></li><li><p>其次，FRC 比赛是 “以学生为中心” 的，学生们努力成为能够独立创造的新一代。大家也愿意付出时间和精力，因为喜欢所以热爱。最后，FRC 比赛重要的不是结果，而是所有队员相互信任、收获自信的过程。</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/610f9e795132923bf85eefb5.jpg" alt=""></p><p><img data-src="https://pic.imgdb.cn/item/610f9e865132923bf85f140b.jpg" alt=""><br><strong>/ 上中国际部演讲途中 /</strong></p><hr><h2 id="3d打印及创新设计"><a class="anchor" href="#3d打印及创新设计">#</a> 3D 打印及创新设计</h2><ul><li><p>华东师范大学第二附属中学（6353）的胡家闻同学和庄心乐同学分别向大家介绍了 3D 打印技术、赛场上易被忽略的问题和排错的注意事项。胡家闻同学主要从四个模块介绍了 3d 打印机，分别是 What，Why，How 以及经验分享。</p></li><li><p>首先，他们主要介绍了什么是 3D 打印机以及 3D 打印机的分类。他们从上一届分享的主题 CNC 加工铣床向大家引入 3D 打印机，提出了 3D 打印机相较于 CNC 加工铣床更多的优点。相较于 CNC 加工铣床全自动化、数字化的精准电脑控制这样的加工机器，3D 打印机使用起来更自由，规模也更小，所产出的噪音小，能够做到一次成型。接着，他们以生活中的 3D 打印产品为例，拉近观众与 3D 打印机的距离，并介绍了 3D 打印机的一些不同分类。</p></li><li><p>其次，他们解释了队伍需要 3D 打印机的原因，以及 3D 打印机是如何提升效率的，并从一些结构进行分析，展示了 3D 打印零件所带来的巨大的优势，再通过说明比赛场上的 3D 打印机能够带来的及时抢修的机会等方面，向各个队伍推荐 3D 打印机。</p></li><li><p>最后，他们讲述了保养 3D 打印机的方法，并通过介绍机器，充分体现了 3D 打印的好处，并推荐了队伍所使用的 3D 打印机。</p></li><li><p>同时，他们认为在紧张的赛场上，要尽量保持良好的心态，步步为营，并推荐在比赛前，最好能够列好一个排错清单，从而在赛场上可以对照清单进行排查，以此减轻一定压力。</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/610f9ed65132923bf85ffe35.jpg" alt=""></p><p><img data-src="https://pic.imgdb.cn/item/610f9ee55132923bf8602d54.jpg" alt=""></p><p><img data-src="https://pic.imgdb.cn/item/610f9eef5132923bf8604c27.jpg" alt=""><br><strong>/6353 演讲途中 /</strong></p><hr><h2 id="交密院招生政策"><a class="anchor" href="#交密院招生政策">#</a> 交密院招生政策</h2><ul><li>本次活动的特邀嘉宾，金永强老师为大家解读了上海交通大学密西根学院的招生政策。老师首先给我们看了交大密西根学院的宣传短片，让大家更加直观地感受到了交大密院的培养理念。以国际化的培养为特色，同时有跨学科学位项目和交叉学科培养模式。他还列举了密西根学院历年来众多高水平学术就业、行业精英、跨行业发展的优秀毕业生，用数据证明他们的优秀发展和密西根学院的成功培养模式有着重要关系。</li></ul><p><img data-src="https://pic.imgdb.cn/item/610f9f175132923bf860c622.jpg" alt=""></p><p><img data-src="https://pic.imgdb.cn/item/610f9f245132923bf860ea86.jpg" alt=""><br><strong>/ 交密院老师宣讲途中 /</strong></p><hr><h2 id="defense与高考学校的队伍生存"><a class="anchor" href="#defense与高考学校的队伍生存">#</a> Defense 与高考学校的队伍生存</h2><ul><li><p>建平机器人社（6494）的姜笑一带来了他们队伍作为高考学校队伍对于 Defense 的心得。首先他认为老队员帮助、队长给出的合理安排、熟悉材料和工具，都能提高机器搭建的效率。</p></li><li><p>关于 Defense，他认为第一个注意事项就是 “合适”，在赛场中 6494 会根据对方做出一定的调整、把灵活放在防守的第一位。防守的核心就是不让对手投球，最好的方法就是在对方机器发射前的一瞬，贴近对方进行干扰，然后迅速撤退。</p></li><li><p>第二点，在操作手注重机器眼下的发挥的同时，Coach 需要纵观全局、避免犯规。第三，Defense 机需要和 Attack 机的沟通，尽量减少对面的收球。第四，他分享了关于防守的专项训练技巧。在对手机器发球的瞬间，冲上去怼向他的头和尾持续 3～4 秒。如果这时对手进保护区了，那就等它出来阻碍。如果对方没有进入，就等几秒再重复刚才的动作。最后，他也提出了一些注意事项。比如不能让车身倾斜，让对手有机会让你被动犯规。</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/610f9f6f5132923bf861be58.jpg" alt=""><br><strong>/6494 演讲途中 /</strong></p><hr><h2 id="午餐"><a class="anchor" href="#午餐">#</a>  <code>午餐</code></h2><p><img data-src="https://pic.imgdb.cn/item/610f9f905132923bf86220e9.jpg" alt=""><br><strong>/ 排队拿饭中 /</strong></p><hr><h2 id="队伍的经验总结和未来规划"><a class="anchor" href="#队伍的经验总结和未来规划">#</a> 队伍的经验总结和未来规划</h2><ul><li><p>交大附中（5515）的邓思晨同学从三个方面进行分享。</p></li><li><p>首先，他分享了这次比赛中我们队伍对于整个搭建期时间的分配和机器整体的变化。他们将搭建期分为了线上赛和线下赛两个部分，在线上赛结束至线下赛开始的两个月时间，对机器进行了很大的改动和很多新的尝试，但却因为时间分配不当导致比赛失利。</p></li><li><p>其次他强调了技术总结和未来规划的重要性。这两个技能可以使得队伍运用已有的技术沉淀来最大符合赛题要求并保证队伍在技术革新的前线，更好的建造出优秀的机器。</p></li><li><p>最后，他将自己队伍所设定的 DDL 和 To Do List 进行了展示，也分享了一下队内是如何实现技术突破的。</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/610f9fdd5132923bf862f85d.jpg" alt=""><br><strong>/5515 演讲途中 /</strong></p><hr><h2 id="机器的程序-原型测试及队伍的长远规划"><a class="anchor" href="#机器的程序-原型测试及队伍的长远规划">#</a> 机器的程序、原型测试及队伍的长远规划</h2><ul><li><p>民办平和学校（6941）的奚宇涵同学、戴昊辰同学、张懿宸同学还有曹雯同学主要就机器的程序、原型测试以及队伍的长远规划展开介绍。</p></li><li><p>首先，他们提出了一些自动技术的实现方法和研究方向。无论哪一年，自动阶段都在 FRC 机器人比赛中占有极其重要的地位，是比赛中重要的得分环节，也是战术安排的重中之重。相对于手动操控阶段，自动开发更加复杂，同时涉及到视觉、闭环控制、路线规划等等不同的技术。因此，6941 的同学们除了介绍各种实现自动的方式，同时也讲述了在实现自动技术的一些经验，为各个队伍自动阶段的规划与后续技术的实现打开了思路。</p></li><li><p>其次，他们就 6941 暑期项目 “Project Peppa” 展开简单介绍。在无限充能赛题中，球的状态的变化不定一直是一个所有队伍都需要面对的重大问题。通过进行类直线的加速，因此球的破损可以被部分忽略，能破除 “射不中 - 离开保护区 - 受到 Defense” 的恶性循环 --- 这也是项目的设计初衷。6941 首先使用激光切割完成了木板的定制，之后使用热熔胶、布基胶带等将其快速搭起，最后在场地进行了性能的检验。在该项目的 Prototying 原型过程中，6941 队员们也收获了宝贵的经验：头脑风暴，想法，雏形，反复的调整，使用方便塑性和调整材料，这才是 Prototying 的 "正确打开方式"。</p></li><li><p>最后，他们分享了 6941 队伍运营的长远规划以及一些心得和想法，并进行了 Q&amp;A 环节（详情请见 IronPulseRobotics）。在线上搭建的过程中，他们收获了完整的在线搭建和资料分享体系，实现了队伍的远程互助与合作。为了提升女性的影响力，同时扩大社团的规模，他们举办了多个 Workshop 和活动。他们希望通过这些经历的分享，能为各个队伍的运营起到一定的帮助。</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/610fa01b5132923bf863ae09.jpg" alt=""></p><p><img data-src="https://pic.imgdb.cn/item/610fa0275132923bf863ce60.jpg" alt=""></p><p><img data-src="https://pic.imgdb.cn/item/610fa0375132923bf863fa74.jpg" alt=""></p><p><img data-src="https://pic.imgdb.cn/item/610fa0425132923bf864166f.jpg" alt=""><br><strong>/6941 演讲途中 /</strong></p><p><img data-src="https://pic.imgdb.cn/item/610fa0515132923bf86440bc.jpg" alt=""></p><p><img data-src="https://pic.imgdb.cn/item/610fa05b5132923bf864591a.jpg" alt=""><br><strong>/Q&amp;A 环节 /</strong></p><hr><h2 id="新人培训-招新运营"><a class="anchor" href="#新人培训-招新运营">#</a> 新人培训、招新运营</h2><ul><li><p>复旦大学附属中学（6907）的徐子杰同学、潘昊澄同学主要从新人培训、招新运营的角度展开介绍。</p></li><li><p>首先，在运营与宣传部分，他们主要介绍了队伍的运营模式、队伍文化、各种主办的校内外活动，以及公众号的相关内容。同时他们以具体的活动为例，简要地介绍了 6907 运营组是如何完成这些项目的。</p></li><li><p>其次，在招新与夏校部分，他们主要介绍了队伍的招新和培训模式，包括每年的时间线、招新的具体形式、夏校的内容和线上夏校。</p></li><li><p>最后，他们介绍了 21 赛季队伍的机器，除了对机器每个模块的功能、材料、结构等进行详细介绍外，也总结了 swerve 底盘的优点。此外，他们也从自动阶段和手动阶段介绍了他们队 21 赛季 RCC 比赛所用的战术和打法，并以自身经历为例，分享与队友配合的方法，带给各队一些战术上的启发。</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/610fa0895132923bf864d870.jpg" alt=""></p><p><img data-src="https://pic.imgdb.cn/item/610fa0955132923bf864fa9c.jpg" alt=""><br><strong>/6907 演讲途中 /</strong></p><hr><h2 id="国产车规控制器芯片现状及展望"><a class="anchor" href="#国产车规控制器芯片现状及展望">#</a> 国产车规控制器芯片现状及展望</h2><ul><li><p>英迪芯微企业联合创始人庄健先生结合英迪芯微企业，向参会者们介绍了关于中国车规芯片的现状和展望，提出目前全球车规芯片供应不足，严重影响我国车企生产这个问题，并鼓励 FRC 成员们投身祖国芯片行业。</p></li><li><p>同时，大家也进一步了解到了该科技企业，深受启发。</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/610fa0cc5132923bf8659705.jpg" alt=""><br><strong>/ 企业演讲 /</strong></p><hr><h2 id="frc生存指南"><a class="anchor" href="#frc生存指南">#</a> FRC 生存指南</h2><ul><li><p>在活动的最后，武书昆老师生动形象地介绍了 FRC 生存指南，用数据证明中国 FRC 队伍是艰难的，原因是 frc 的赛事注重过程，很多队伍会空手而归，但这却不合国人比赛的思维逻辑。</p></li><li><p>此外，武老师指出，基于中国 FRC 队伍目前的现状，我们应该站在巨人的肩膀上来达到胜利的目标，任何的 FRC 资源都是开源的，有非常多的完善的资源可以供大家学习。</p></li><li><p>最后，武老师通过举了往年机器的案例证明了稳定、高效、可实现才是中国队伍作为学习者应该遵守的设计思维。</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/610fa0fd5132923bf8661de3.jpg" alt=""><br><strong>/ 武老师分享途中 /</strong></p><hr><h2 id="茶歇与合照"><a class="anchor" href="#茶歇与合照">#</a> 茶歇与合照</h2><ul><li>PS：茶歇因为大家太尽兴啦，以至于没有人拍照</li></ul><hr><p><img data-src="https://pic.imgdb.cn/item/610f9d635132923bf85b80fc.jpg" alt=""><br><strong>/ 中午时分拍的大合照 /</strong></p><hr><p>&lt;font color = "#dd00dd" face="黑体"&gt;&lt;center&gt;<strong> 组织单位</strong> &lt;/center&gt;&lt;/font&gt;<br>&lt;center&gt; 华东师范大学第二附属中学 &lt;/center&gt;<br>&lt;center&gt; 上海民办平和双语学校 &lt;/center&gt;<br>&lt;center&gt; 华东师范大学第二附属中学紫竹校区 &lt;/center&gt;<br>&lt;center&gt; 复旦大学附属中学 &lt;/center&gt;<br>&lt;center&gt; 上海中学国际部 &lt;/center&gt;<br>&lt;center&gt; 上海交通大学附属中学 &lt;/center&gt;</p><p>&lt;font color = "#dd00dd" face="黑体"&gt;&lt;center&gt;<strong> 参会学校</strong> &lt;/center&gt;&lt;/font&gt;<br>&lt;center&gt; 上海交通大学 &lt;/center&gt;<br>&lt;center&gt; 华东师范大学第二附属中学紫竹校区 &lt;/center&gt;<br>&lt;center&gt; 上海民办平和双语学校 &lt;/center&gt;<br>&lt;center&gt; 复旦大学附属中学 &lt;/center&gt;<br>&lt;center&gt; 上海中学国际部 &lt;/center&gt;<br>&lt;center&gt; 上海市交通大学附属中学 &lt;/center&gt;<br>&lt;center&gt; 上海七宝德怀特高级中学 &lt;/center&gt;<br>&lt;center&gt; 上海市建平中学 &lt;/center&gt;<br>&lt;center&gt; 上海市川沙中学 &lt;/center&gt;<br>&lt;center&gt; 杭州外国语学校 &lt;/center&gt;<br>&lt;center&gt; 等等……&lt;/center&gt;</p><p>&lt;font color = "#dd00dd" face="黑体"&gt;&lt;center&gt;<strong> 支持单位</strong> &lt;/center&gt;&lt;/font&gt;<br>&lt;center&gt;FRC 上海组委会 &lt;/center&gt;<br>&lt;center&gt; 上海交通大学密西根学院 &lt;/center&gt;<br>&lt;center&gt; 英迪芯公司 &lt;/center&gt;</p><hr><h2 id="总结"><a class="anchor" href="#总结">#</a> 总结</h2><ul><li><p>通过这次交流会活动，通过交流技术心得，分享比赛经验以及各方面对于队伍建设的介绍，FRC 队伍间互相变得更加熟悉，队员们也大开眼界，了解了更多关于 FRC 赛事的经验以及知识。</p></li><li><p>对于在场每一位热爱 FRC 赛事，热爱机器人的人来说，这次交流会只是 FRC 赛事发展以及传播 FIRST 精神的一段过程。希望经过所有人不懈的努力，我们有机会一起见证中国 FRC 队伍在世界的舞台上脱颖而出，取得佳绩！</p></li></ul><p>&lt;font color = "#dd00dd" face="黑体"&gt;<strong> 排版：6907</strong>&lt;/font&gt;</p><p>&lt;font color = "#dd00dd" face="黑体"&gt;<strong> 撰稿：6353，6941，6907，6494，上中国际部 FRC 机器人社，5515</strong>&lt;/font&gt;</p><p>&lt;font color = "#dd00dd" face="黑体"&gt;<strong> 摄影：6353，6941</strong>&lt;/font&gt;</p><p>&lt;font color = "#dd00dd" face="黑体"&gt;<strong>markdown 编辑者：6940 mendax1234</strong>&lt;/font&gt;</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;2021.7.29  &lt;code&gt;第二届FRC机器人技术交流分享会&lt;/code&gt; 在华东师范大学第二附属中学如期而至。华东地区各支在 FRC 领域内颇有建树或是有兴趣的机器人队伍以及专注于 STEM 教育的单位迎来了第二次激动人心的技术会晤。&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="技术交流" scheme="https://team6940.tech/tags/%E6%8A%80%E6%9C%AF%E4%BA%A4%E6%B5%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>6940网站搭建教程 ———— 创作篇</title>
+    <link href="https://team6940.tech/6940-wang-zhan-da-jian-jiao-cheng-4/"/>
+    <id>https://team6940.tech/6940-wang-zhan-da-jian-jiao-cheng-4/</id>
+    <published>2021-08-04T09:30:57.000Z</published>
+    <updated>2023-01-12T07:30:30.343Z</updated>
+    
+    <content type="html"><![CDATA[<p>&lt;font size = 5&gt;<strong> 在看本片文章前，请大家先阅读<a href=""> 6940 网站搭建教程 ———— 环境搭建 (基础篇)</a>。</strong>&lt;/font&gt;</p><h2 id="步骤"><a class="anchor" href="#步骤">#</a> 步骤</h2><ul><li><p>&lt;font size = 4&gt; 打开 VsCode&lt;/font&gt;<br><img data-src="https://pic.imgdb.cn/item/610a4f9f5132923bf873827e.jpg" alt=""></p></li><li><p>&lt;font size = 4&gt; 点击进入 <code>/source/_posts</code>  文件夹 &lt;/font&gt;</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/610b4b165132923bf84c13a2.jpg" alt=""></p><ul><li>&lt;font size = 4&gt; 在 <code>/source/_posts/</code>  下右键，选择 <code>新建文件</code>  &lt;/font&gt;</li></ul><p><img data-src="https://pic.imgdb.cn/item/610b4c5c5132923bf84fcba2.jpg" alt=""></p><ul><li>&lt;font size = 4&gt; 输入文章的名字，但注意一定要在后面加上 <code>.md</code>  这个后缀，表示他是个 <code>markdown</code>  文件 &lt;/font&gt;</li></ul><p><img data-src="https://pic.imgdb.cn/item/610b4d145132923bf8519769.jpg" alt=""></p><ul><li>&lt;font size = 4&gt; 在随便在 <code>/source/_posts/</code>  目录下随便选一个 <code>.md</code>  文件，打开，鼠标滚到最上面，把下图中用红笔圈起来的地方复制，就是从 <code>---</code>  到 <code>---</code>  的这一段内容，再黏贴到你刚才新建的 <code>md</code>  文件的最上部，比如我刚才新建了一个 <code>我就示范下.md</code>  的文件，这时候它还是个空的文件，我们只需要把刚才复制的东西黏贴就行了。&lt;/font&gt;</li></ul><p><img data-src="https://pic.imgdb.cn/item/610b4e015132923bf853fdcd.jpg" alt=""></p><ul><li>&lt;font size = 4&gt; 这个时候，我们还要修改一下刚才复制的内容里的一些东西，先看一下官方给的说明：&lt;/font&gt;</li></ul><table><thead><tr><th>配置选项</th><th>默认值</th><th>描述</th></tr></thead><tbody><tr><td>title</td><td><code>Markdown</code>  的文件标题</td><td>文章标题，强烈建议填写此选项</td></tr><tr><td>date</td><td>文件创建时的日期时间</td><td>发布时间，强烈建议填写此选项，且最好保证全局唯一</td></tr><tr><td>author</td><td>根  <code>_config.yml</code>  中的  <code>author</code></td><td>文章作者</td></tr><tr><td>img</td><td><code>featureImages</code>  中的某个值</td><td>文章特征图，推荐使用图床 (腾讯云、七牛云、又拍云等) 来做图片的路径。如:  <code>http://xxx.com/xxx.jpg</code></td></tr><tr><td>top</td><td><code>true</code></td><td>推荐文章（文章是否置顶），如果  <code>top</code>  值为  <code>true</code> ，则会作为首页推荐文章</td></tr><tr><td>hide</td><td><code>false</code></td><td>隐藏文章，如果 <code>hide</code>  值为 <code>true</code> ，则文章不会在首页显示</td></tr><tr><td>cover</td><td><code>false</code></td><td><code>v1.0.2</code>  版本新增，表示该文章是否需要加入到首页轮播封面中</td></tr><tr><td>coverImg</td><td>无</td><td><code>v1.0.2</code>  版本新增，表示该文章在首页轮播封面需要显示的图片路径，如果没有，则默认使用文章的特色图片</td></tr><tr><td>password</td><td>无</td><td>文章阅读密码，如果要对文章设置阅读验证密码的话，就可以设置  <code>password</code>  的值，该值必须是用  <code>SHA256</code>  加密后的密码，防止被他人识破。前提是在主题的  <code>config.yml</code>  中激活了  <code>verifyPassword</code>  选项</td></tr><tr><td>toc</td><td><code>true</code></td><td>是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的  <code>config.yml</code>  中激活了  <code>toc</code>  选项</td></tr><tr><td>mathjax</td><td><code>false</code></td><td>是否开启数学公式支持 ，本文章是否开启  <code>mathjax</code> ，且需要在主题的  <code>_config.yml</code>  文件中也需要开启才行</td></tr><tr><td>summary</td><td>无</td><td>文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</td></tr><tr><td>categories</td><td>无</td><td>文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类</td></tr><tr><td>tags</td><td>无</td><td>文章标签，一篇文章可以多个标签</td></tr><tr><td>keywords</td><td>文章标题</td><td>文章关键字，SEO 时需要</td></tr><tr><td>reprintPolicy</td><td>cc_by</td><td>文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个</td></tr></tbody></table><ul><li><p>&lt;font size = 4&gt; 具体的说明，大家应该都没什么问题，上面写的也非常详细了。那么我们主要要改的其实就只有几个地方，比如 <code>title</code> , <code>date</code> （如果直接用 <code>Git Bash</code>  操作的话会自动生成，但是那个还要安装 <code>Hexo</code> , <code>Node.js</code> ，并且也需要会一些命令行，因此这边并不推荐，不过感兴趣的可以自己研究）, <code>author</code> , <code>summary</code> , <code>img</code> , <code>tags</code> &lt;/font&gt;</p></li><li><p>&lt;font size = 4&gt; 改的时候还有一点要注意，就是任何 <code>: </code> 后面都要加一个 &lt;kbd&gt;space&lt;/kbd&gt;(空格)，不然到时候我这边 <code>hexo g</code>  会报错。一定要注意！！！&lt;/font&gt;</p></li></ul><p>&lt;font size = 6&gt; 到这之后，就可以开始创作自己的文章了！&lt;/font&gt;</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;lt;font size = 5&amp;gt;&lt;strong&gt; 在看本片文章前，请大家先阅读&lt;a href=&quot;&quot;&gt; 6940 网站搭建教程 ———— 环境搭建 (基础篇)&lt;/a&gt;。&lt;/strong&gt;&amp;lt;/font&amp;gt;&lt;/p&gt;
+&lt;h2 id=&quot;步骤&quot;&gt;&lt;a class=&quot;</summary>
+      
+    
+    
+    
+    
+    <category term="网站搭建" scheme="https://team6940.tech/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>6940网站搭建教程 ———— 工具篇</title>
+    <link href="https://team6940.tech/6940-wang-zhan-da-jian-jiao-cheng-3/"/>
+    <id>https://team6940.tech/6940-wang-zhan-da-jian-jiao-cheng-3/</id>
+    <published>2021-07-04T10:30:57.000Z</published>
+    <updated>2023-01-12T07:30:30.343Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="vscode"><a class="anchor" href="#vscode">#</a> vscode</h2><ul><li>在使用 vscode 时，系统默认会装英文版的，对于某些小白来说可能不太友好，不过没有关系，vscode 强大的 extension 提供了官方的简体中文包，具体安装过程如下：</li></ul><p>1，首先打开 vscode，点击左侧栏左后一个图标</p><p><img data-src="https://pic.imgdb.cn/item/60e176965132923bf8ea0609.jpg" alt=""></p><p>2，然后，在搜索框中键入 <code>Chinese</code></p><p><img data-src="https://pic.imgdb.cn/item/60e176df5132923bf8ebae7b.jpg" alt=""></p><p>3, 安装这个插件即可</p><p><img data-src="https://pic.imgdb.cn/item/60e176fb5132923bf8ec610d.jpg" alt=""></p><h2 id="图床工具"><a class="anchor" href="#图床工具">#</a> 图床工具</h2><p></p><figure class="highlight avrasm"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">Q:</span> 什么是图床工具?</span><br><span class="line"><span class="symbol">A:</span> 简而言之，就是给你本地的图片分配一个网址，这样我们就可以通过网址访问该图片了，这在markdown中十分重要。</span><br></pre></td></tr></tbody></table></figure><br> 以下是图床工具的链接：<br><span class="exturl" data-url="aHR0cHM6Ly93d3cuc3VwZXJiZWQuY24v">https://www.superbed.cn/</span><p></p><p>你需要进行相应的注册才能使用，具体使用方法如下</p><p>1，选择你要上传的图片，&lt;kbd&gt;Ctrl C&lt;/kbd&gt;, 在浏览器中打开图床工具的网站，&lt;kbd&gt;Ctrl V&lt;/kbd &gt; 即可。然后他会给你的图片丰沛一个网址，有很多种形式。比如你想直接用 markdown 进行插入，可以选择 <code>Markdown</code> , 他就会自动转变为 markdown 语法。</p><p><img data-src="https://pic.imgdb.cn/item/60e178a75132923bf8f6137d.jpg" alt=""></p><h2 id="图标提供"><a class="anchor" href="#图标提供">#</a> 图标提供</h2><p><span class="exturl" data-url="aHR0cHM6Ly9mb250YXdlc29tZS5jb20vdjUuMTUvaWNvbnM/ZD1nYWxsZXJ5JmFtcDtwPTI=">icons</span></p><p>这个网站上有非常多的图标，但大多数情况都是要配合配置文件 <code>_config.yml</code>  进行使用，不过你想用在你的文章的封面上也不是不可以，具体方法不赘述。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;vscode&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#vscode&quot;&gt;#&lt;/a&gt; vscode&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在使用 vscode 时，系统默认会装英文版的，对于某些小白来说可能不太友好，不过没有关系，vscode 强大的 extensi</summary>
+      
+    
+    
+    
+    
+    <category term="网站搭建" scheme="https://team6940.tech/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>6940网站搭建教程 ———— 环境搭建(基础篇)</title>
+    <link href="https://team6940.tech/6940-wang-zhan-da-jian-jiao-cheng-2/"/>
+    <id>https://team6940.tech/6940-wang-zhan-da-jian-jiao-cheng-2/</id>
+    <published>2021-07-03T13:03:57.000Z</published>
+    <updated>2023-01-12T07:30:30.343Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="安装前的准备工作"><a class="anchor" href="#安装前的准备工作">#</a> 安装前的准备工作</h2><ul><li>一个<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw=="> Github</span> 账号 (注册方法比较简单，有问题自行百度，或者<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1RlYW02OTQwL1RlYW02OTQwLmdpdGh1Yi5pby9pc3N1ZXM="> Github</span> 上直接 issue)</li><li><span class="exturl" data-url="aHR0cHM6Ly9kZXNrdG9wLmdpdGh1Yi5jb20v">Github Desktop</span></li><li>一个 markdown 编辑器，建议使用<span class="exturl" data-url="aHR0cHM6Ly9jb2RlLnZpc3VhbHN0dWRpby5jb20v"> Vscode</span>, 如果以后想从事 FRC 程序组工作的话也可以直接下载<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3dwaWxpYnN1aXRlL2FsbHdwaWxpYi9yZWxlYXNlcw=="> WPILIB</span></li></ul><h2 id="分布式操作"><a class="anchor" href="#分布式操作">#</a> 分布式操作</h2><h3 id="介绍"><a class="anchor" href="#介绍">#</a> 介绍</h3><ul><li>简单来说，这个功就是能让多人同时在一个项目上工作。一般来说，我们只需要简单的 <code>Pull</code> ，再 <code>Push</code>  一下就行。为了简化大家的操作，这里我使用 <code>Github Desktop</code>  去实现这个功能，当然，用 <code>Git</code>  也可以，只不过后者基本都是命令行操作 (可以装逼，但其实大佬都是用 <code>Git</code> )</li></ul><h3 id="方法介绍"><a class="anchor" href="#方法介绍">#</a> 方法介绍</h3><ul><li><p>首先，当你创建好一个 Github 账号后，把你用户名发给我 (QQ, 微信等渠道都行), 我会邀请你进入<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1RlYW02OTQw"> FRC Team 6940</span> 这个组织。</p></li><li><p>然后，双击打开桌面上的 <code>Github Desktop</code> <br><img data-src="https://pic.imgdb.cn/item/60e0643e5132923bf88d1504.jpg" alt=""></p></li></ul><p>按照提示进行登录，将<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL1RlYW02OTQwLzY5NDB3ZWI="> 6940web</span> 克隆 ( <code>clone</code> ) 到本地的文件夹 (这里建议专门新建一个文件夹作为自己的工作区)<br><img data-src="https://pic.imgdb.cn/item/60e066985132923bf89afed9.jpg" alt=""></p><p><img data-src="https://pic.imgdb.cn/item/60e066985132923bf89afe66.jpg" alt=""></p><p>图中的 <code>Local Path</code>  是你存放这个项目的文件夹的位置</p><ul><li><p>选择好之后，点击 <code>Clone</code>  即可，如果提示错误的话，多试几次，或者爬个梯子，搞个加速啥的，懂得都懂</p></li><li><p>完成之后，进入 <code>vscode</code> ，点击图示位置中的 <code>打开文件夹</code> ，选择刚才你 <code>Clone</code>  下来的文件夹。</p></li></ul><p><img data-src="https://pic.imgdb.cn/item/60e068565132923bf8a63b80.jpg" alt=""></p><p>会看到下图所示的一个目录，其中我们主要写文章是在 <code>/source/_posts/</code>  下进行的。具体的操作步骤将在下一个教程中详细介绍，敬请期待。</p><p><img data-src="https://pic.imgdb.cn/item/60e174165132923bf8db3e0f.jpg" alt=""></p><ul><li>当你新写了一篇文章后，回到 <code>Github Desktop</code> , 这里会出现你更改的记录一个增加或删除了哪些内容</li></ul><p><img data-src="https://pic.imgdb.cn/item/60e069e75132923bf8b042a1.jpg" alt=""></p><ul><li><p>这个时候，你需要选择一个你改过的文件，比如我现在是 5 个文件全都选中了，然后，在左下角的 <code>Commit</code>  框里填写一些类似 <code>注释</code> 的话，主要可以说一下你改了些啥。</p></li><li><p>填写好之后，点击<strong> Commit to main</strong> 这个按钮即可<br>然后你会发现下图框出的位置变成 <code>Push origin</code>  了，点击即可将这个更改上传到你的 repo 了。<br><img data-src="https://pic.imgdb.cn/item/60e06afc5132923bf8b7559a.jpg" alt=""></p></li></ul><p>但是，这个时候，Github 可能会报错，它显示你没有权限更改。并且会提示你先把 6940web 这个仓库 fork 下来，然后再提交到你 fork 下来的那个仓库中。</p><ul><li><p>点击框出的部分<br><img data-src="https://pic.imgdb.cn/item/60e06ea75132923bf8d0a0a9.jpg" alt=""></p></li><li><p>按照图示选择 <code>Continue</code>  即可<br><img data-src="https://pic.imgdb.cn/item/60e06f035132923bf8d31909.jpg" alt=""></p></li><li><p>最后，再点击右上角的 <code>Push origin</code>  即可</p></li><li><p>还有一点，就是，每次你在工作之前，都点一下右上角的 <code>Fetch Origin</code> , 从上游仓库把别人对仓库的更行 <code>Pull</code>  下来。</p></li></ul><p>完成上述操作之后，还有一个很重要的步骤，就是你要把你修改的内容 Pr 给我，具体操作如下</p><p>1，打开浏览器，进入到你的 Github 主页，点击你刚才 fork 的 repo，<br><img data-src="https://pic.imgdb.cn/item/60e070165132923bf8db06df.jpg" alt=""></p><p>2，点进去之后，再点击 <code>Pull Request</code> , 然后点 <code>New pull request</code> <br><img data-src="https://pic.imgdb.cn/item/60e070455132923bf8dc5b33.jpg" alt=""></p><p>3, 点击 <code>Create pull request</code> <br><img data-src="https://pic.imgdb.cn/item/60e071025132923bf8e1b7e4.jpg" alt=""></p><p>4, 填写相关信息，最后提交即可<br><img data-src="https://pic.imgdb.cn/item/60e070da5132923bf8e091e2.jpg" alt=""></p><p>5，提交完分支之后，我会进一步审核，主要就是看有没有冲突，如果没有，我会把你的 <code>request</code> <strong>merge</strong> 到原始仓库中，这样一个完整的流程也就结束了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;安装前的准备工作&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#安装前的准备工作&quot;&gt;#&lt;/a&gt; 安装前的准备工作&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一个&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9naXRodWIuY29tL</summary>
+      
+    
+    
+    
+    
+    <category term="网站搭建" scheme="https://team6940.tech/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>6940详细网站搭建教程 ———环境安装篇(进阶版)</title>
+    <link href="https://team6940.tech/6940-xiang-xi-wang-zhan-da-jian-jiao-cheng-1/"/>
+    <id>https://team6940.tech/6940-xiang-xi-wang-zhan-da-jian-jiao-cheng-1/</id>
+    <published>2021-06-23T14:13:28.000Z</published>
+    <updated>2023-01-12T07:30:30.343Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a class="anchor" href="#简介">#</a> 简介</h1><ul><li><p>首先，我们的网站是用 hexo + Github 进行搭建的，网站的域名是：<span class="exturl" data-url="aHR0cHM6Ly90ZWFtNjk0MC5naXRodWIuaW8v">https://team6940.github.io/</span></p></li><li><p>在使用的过程中也可以参考一下<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2JsaW5rZm94L2hleG8tdGhlbWUtbWF0ZXJ5L2Jsb2IvZGV2ZWxvcC9SRUFETUVfQ04ubWQ=">官网的文档说明</span></p></li></ul><h2 id="需要的软件"><a class="anchor" href="#需要的软件">#</a> 需要的软件</h2><ul><li>一个<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tLw=="> Github</span> 账户，注册方法自行百度。。。</li></ul><p>安装 Hexo 相当简单，只需要先安装下列应用程序即可：</p><ul><li><span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL2VuLw==">Node.js</span> (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)</li><li><span class="exturl" data-url="aHR0cHM6Ly9naXQtc2NtLmNvbS8=">Git</span></li></ul><p>如果您的电脑中已经安装上述必备程序，那么恭喜您！你可以直接前往 <a href="#%E5%AE%89%E8%A3%85hexo">安装 Hexo</a> 步骤。</p><p>如果您的电脑中尚未安装所需要的程序，请根据以下安装指示完成安装。</p><h2 id="安装git"><a class="anchor" href="#安装git">#</a> 安装 Git</h2><ul><li>Windows：下载并安装 <a href="">git</a>.</li><li>Mac：使用 <span class="exturl" data-url="aHR0cHM6Ly9icmV3LnNoLw==">Homebrew</span> 或 <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFjcG9ydHMub3JnLw==">MacPorts</span> 安装。</li><li>Linux（DEB/RPM-based）：从 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25vZGVzb3VyY2UvZGlzdHJpYnV0aW9ucw==">NodeSource</span> 安装。</li><li>其它：使用相应的软件包管理器进行安装，可以参考由 Node.js 提供的 <span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL2VuL2Rvd25sb2FkL3BhY2thZ2UtbWFuYWdlci8=">指导</span>。</li></ul><h2 id="安装-nodejs"><a class="anchor" href="#安装-nodejs">#</a> 安装 Node.js</h2><p>Node.js 为大多数平台提供了官方的 <span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL2VuL2Rvd25sb2FkLw==">安装程序</span>。</p><p>其它的安装方法：</p><ul><li>Windows：通过 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2phc29uZ2luL252cy8=">nvs</span>（推荐）或者 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL252bS1zaC9udm0=">nvm</span> 安装、</li></ul><p>Windows 安装说明：<br>当你点进链接时，会出现如下页面，然后点击图中框出的 “Release” 部分<br> &lt; img src="<span class="exturl" data-url="aHR0cHM6Ly9waWMuaW1nZGIuY24vaXRlbS82MGQ1ZDA4Njg0NGVmNDZiYjI0YWFiNzAuanBn">https://pic.imgdb.cn/item/60d5d086844ef46bb24aab70.jpg</span>" &gt;</p><p>然后点击下图框选内容下载安装即可:</p><p>&lt;img src="<span class="exturl" data-url="aHR0cHM6Ly9waWMuaW1nZGIuY24vaXRlbS82MGQ1ZDJjNDg0NGVmNDZiYjI1NGFmMDEuanBn">https://pic.imgdb.cn/item/60d5d2c4844ef46bb254af01.jpg</span>"&gt;</p><ul><li>Mac：使用 <span class="exturl" data-url="aHR0cHM6Ly9icmV3LnNoLw==">Homebrew</span> 或 <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFjcG9ydHMub3JnLw==">MacPorts</span> 安装。</li><li>Linux（DEB/RPM-based）：从 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL25vZGVzb3VyY2UvZGlzdHJpYnV0aW9ucw==">NodeSource</span> 安装。</li><li>其它：使用相应的软件包管理器进行安装，可以参考由 Node.js 提供的 <span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL2VuL2Rvd25sb2FkL3BhY2thZ2UtbWFuYWdlci8=">指导</span>。</li></ul><p>注意：</p><ul><li>Windows 用户<br>使用 Node.js 官方安装程序时，请确保勾选 <strong>Add to PATH</strong> 选项（默认已勾选）</li></ul><h2 id="安装hexo"><a class="anchor" href="#安装hexo">#</a> 安装 hexo</h2><p>所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。<br></p><figure class="highlight avrasm"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-<span class="keyword">cli</span></span><br></pre></td></tr></tbody></table></figure><br> 注意：<p></p><ul><li>以上操作均在 <code>Git Bash</code>  中完成，具体操作如下：<br>按照上述步骤完成安装 Git 之后，建议新建一个文件夹专门用来存放网站，然后鼠标右键，点击下图框选内容。</li></ul><p>&lt;img src="<span class="exturl" data-url="aHR0cHM6Ly9waWMuaW1nZGIuY24vaXRlbS82MGQ1ZDhjMzg0NGVmNDZiYjI3MTJmMTkuanBn">https://pic.imgdb.cn/item/60d5d8c3844ef46bb2712f19.jpg</span>"&gt;</p><p>然后进入下图所示界面：<br>&lt;img src="<span class="exturl" data-url="aHR0cHM6Ly9waWMuaW1nZGIuY24vaXRlbS82MGQ1ZDkxYzg0NGVmNDZiYjI3MmVmMTYuanBn">https://pic.imgdb.cn/item/60d5d91c844ef46bb272ef16.jpg</span>"&gt;<br> 最后输入上述安装代码即可。</p><p>至此，基本的环境就安装完毕了。</p><p>为了简化大家的操作，后续写文章时所需的技巧我改为在 Github Desktop 上操作，对于一些不熟悉命令行的同学，可能能更容易接受一些。当然，如果你想看起来牛逼一些，也可以用命令行操作。111</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;简介&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#简介&quot;&gt;#&lt;/a&gt; 简介&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;首先，我们的网站是用 hexo + Github 进行搭建的，网站的域名是：&lt;span class=&quot;exturl&quot; data-url=&quot;aHR</summary>
+      
+    
+    
+    
+    
+    <category term="网站搭建" scheme="https://team6940.tech/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+</feed>
