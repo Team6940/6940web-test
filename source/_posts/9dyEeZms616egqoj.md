@@ -6,6 +6,9 @@ tags:
 
 随着新赛题的公布，我们也正式投入了新赛季的设计与讨论，值此新旧交替之季，我们也把我们去年的机械结构模型与代码公开，以供各位队伍借鉴于学习。
 
+教学手册：
+https://drive.google.com/file/d/1OdvkPFKJT0NKX7sV34xFgNMcYFX4UFiK/view?usp=share_link
+
 整车模型：
 https://drive.google.com/file/d/14r14pvr69MKc98Nj0cy7TiL0nv98SKL9/view?usp=share_link
 
